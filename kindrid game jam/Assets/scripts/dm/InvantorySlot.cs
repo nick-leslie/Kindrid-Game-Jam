@@ -9,6 +9,7 @@ public class InvantorySlot : MonoBehaviour
     public Placer Placement;
     public void grabItem(InputAction.CallbackContext context)
     {
+        Debug.Log("riddle me piss")
         Placement.Item = currentItem;
         amount--;
         if(amount <= 0)
