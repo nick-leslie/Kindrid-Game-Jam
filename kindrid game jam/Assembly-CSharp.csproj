@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\player\moveing\Movement.cs" />
     <Compile Include="Assets\scripts\player\moveing\grounedManiger.cs" />
+    <Compile Include="Assets\scripts\cameraControler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
