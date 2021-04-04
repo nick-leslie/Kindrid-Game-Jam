@@ -60,7 +60,7 @@
     <Compile Include="Assets\scripts\cameraControler.cs" />
     <Compile Include="Assets\scripts\player\moveing\grounedManiger.cs" />
     <Compile Include="Assets\scripts\dm\InvantorySlot.cs" />
-    <Compile Include="Assets\scripts\dm\Placer.cs" />
+    <Compile Include="Assets\scripts\sceneManiger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
