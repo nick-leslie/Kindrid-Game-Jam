@@ -331,6 +331,9 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/scripts/cameraControler.cs"
+"Assets/scripts/dm/InvantorySlot.cs"
+"Assets/scripts/dm/Placer.cs"
 "Assets/scripts/player/moveing/grounedManiger.cs"
 "Assets/scripts/player/moveing/Movement.cs"
 -langversion:8.0
