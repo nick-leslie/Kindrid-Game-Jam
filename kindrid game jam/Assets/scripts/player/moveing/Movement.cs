@@ -22,6 +22,11 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField]
     private GameObject groundedManiger;
+    //------------------- stop testing
+    public bool deadStop;
+    //public float stopSpeed;
+    public float lerpSpeed;
+    //public Vector2 velcocity;
     //private BoxCollider2D groundedManiger()
     // Start is called before the first frame update
     void Start()
@@ -33,6 +38,8 @@ public class Movement : MonoBehaviour
     void Update()
     {
         rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
+        rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
+        //velcocity = rb.velocity;
         if(groundedManiger.GetComponent<grounedManiger>().Grouned == true && jumpOveride == false)
         {
             canJump = true;
@@ -49,14 +56,20 @@ public class Movement : MonoBehaviour
                 canJump = false;
                 jumpOveride = true;
                 StartCoroutine("waitToJump");
-                Debug.Log("jumped");
+                //Debug.Log("jumped");
             }
         }
     }
     public void Move(InputAction.CallbackContext context)
     {
-
-        moveDire = context.ReadValue<Vector2>();
+        if (context.phase != InputActionPhase.Canceled)
+        {
+            moveDire = context.ReadValue<Vector2>();
+        } else
+        {
+                moveDire = Vector2.zero;
+               // rb.velocity *=  stopSpeed * Time.deltaTime;
+        }
     }
     IEnumerator waitToJump()
     {
