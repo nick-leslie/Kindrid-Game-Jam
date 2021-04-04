@@ -15,11 +15,11 @@ C:/Users/Cam/Desktop/Gamer Jamer/Kindrid-Game-Jam/kindrid game jam
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56273
+56923
 Successfully changed project path to: C:/Users/Cam/Desktop/Gamer Jamer/Kindrid-Game-Jam/kindrid game jam
 C:/Users/Cam/Desktop/Gamer Jamer/Kindrid-Game-Jam/kindrid game jam
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.1f1 (6fdc41dfa55a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,85 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.008382 seconds.
+Registered in 0.004233 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 65.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.289 seconds
+- Completed reload, in  2.008 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002787 seconds.
+Registered in 0.001174 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  1.432 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.8 MB.
+Unloading 1834 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.1 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2288.
-Total: 2.583800 ms (FindLiveObjects: 0.226500 ms CreateObjectMapping: 0.134300 ms MarkObjects: 2.143300 ms  DeleteObjects: 0.078100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2296.
+Total: 2.482900 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.144000 ms  DeleteObjects: 0.070600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ffa0a5e8f73f3457f64fc720c11ab1') in 0.017401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.911201 seconds.
   path: Assets/Art Work
   artifactKey: Guid(745902c163efb5040880f6fd7bddd9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Work using Guid(745902c163efb5040880f6fd7bddd9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a22108bae0f429b47286f341579441') in 0.008136 seconds 
+Start importing Assets/Art Work using Guid(745902c163efb5040880f6fd7bddd9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a22108bae0f429b47286f341579441') in 0.018717 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.084671 seconds.
+  Time since last request: 0.000198 seconds.
   path: Assets/Art Work/Milk Man.jpg
   artifactKey: Guid(c14ad4392ed87c14f915df4b11c85357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Work/Milk Man.jpg using Guid(c14ad4392ed87c14f915df4b11c85357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0172fad556b8cc02aad4371e8622e1ce') in 0.228193 seconds 
+Start importing Assets/Art Work/Milk Man.jpg using Guid(c14ad4392ed87c14f915df4b11c85357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0172fad556b8cc02aad4371e8622e1ce') in 0.247181 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001255 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 2.540800 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.212900 ms  DeleteObjects: 0.016200 ms)
-
+Received Import Request.
+  Time since last request: 5.199355 seconds.
+  path: Assets/Art Work/CAN.jpg
+  artifactKey: Guid(545f2bff05dacee48905124d31196e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/CAN.jpg using Guid(545f2bff05dacee48905124d31196e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c87fbbcb37533fa964c2cbd79fe00ea') in 0.044777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.491584 seconds.
+  path: Assets/Art Work/CAN.png
+  artifactKey: Guid(091cc6afd986cae44b675385d07a4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/CAN.png using Guid(091cc6afd986cae44b675385d07a4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184974fa12611733765d3c078b88c7f5') in 0.024254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 822.342251 seconds.
+  path: Assets/Art Work/CAN-DIET.png
+  artifactKey: Guid(17189f9ac82d1384bb34607268d575ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/CAN-DIET.png using Guid(17189f9ac82d1384bb34607268d575ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ffbba31e2e7793f195c9bcd7cea4f8') in 0.029573 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
