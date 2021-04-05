@@ -51,6 +51,7 @@ public class sceneManiger : MonoBehaviour
             }
         }
         SceneManager.LoadSceneAsync(loadSceneNumber, LoadSceneMode.Additive);
+        MainCammra.GetComponent<cameraControler>().hardRest();
         SceneManager.MoveGameObjectToScene(player, SceneManager.GetSceneByBuildIndex(loadSceneNumber));
         SceneManager.MoveGameObjectToScene(MainCammra, SceneManager.GetSceneByBuildIndex(loadSceneNumber));
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -67,6 +68,7 @@ public class sceneManiger : MonoBehaviour
         //Debug.Log("being called");
         yield return null;
         Transform spawnPos = GameObject.FindGameObjectWithTag("PlayerSpawnPos").transform;
+        player.GetComponent<HealthManiger>().changeSpawn(spawnPos);
         player.transform.position = spawnPos.position;
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)

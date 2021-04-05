@@ -30,7 +30,10 @@ public class TriggerZone : MonoBehaviour
     //---------------------- Player things
     [Header("Player things")]
     private GameObject player;
+    private HealthManiger healthManiger;
     //flags
+    [SerializeField]
+    private bool KillPlayer;
     [SerializeField]
     private bool dammagePlayer;
     [SerializeField]
@@ -48,6 +51,8 @@ public class TriggerZone : MonoBehaviour
     {
         SceneManiger = GameObject.FindGameObjectWithTag("SceneManiger").GetComponent<sceneManiger>();
         cammraControler = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<cameraControler>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        healthManiger = player.GetComponent<HealthManiger>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -60,6 +65,11 @@ public class TriggerZone : MonoBehaviour
                     SceneManiger.LoadNextLevle();
                     return;
                 }
+                if (KillPlayer)
+                {
+                    healthManiger.death();
+                    return;
+                }
                 if (TrigerCinima == true)
                 {
                     if (ChangeFOV != true)
@@ -70,6 +80,18 @@ public class TriggerZone : MonoBehaviour
                         cammraControler.MoveCamera(CinimaTarget, timeHeld, FOVMod, FOVLerpTime);
                         
                     }
+                }
+                if(dammagePlayer)
+                {
+                    healthManiger.DealDamage(DammageAmount);
+                }
+                if(healPlayer)
+                {
+                    healthManiger.Heal(HealAmount);
+                }
+                if(changePos)
+                {
+                    player.transform.position = newPos.position;
                 }
                 if(disableAfterUse == true)
                 {

@@ -52,5 +52,6 @@ public class HealthManiger : MonoBehaviour
         // here is where we would do death animation
         //TODO add code to wait for death animation
         gameObject.transform.position = respawnPoint.position;
+        health = MaxHealth;
     }
 }
