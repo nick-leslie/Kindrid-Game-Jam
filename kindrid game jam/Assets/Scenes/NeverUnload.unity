@@ -224,6 +224,8 @@ MonoBehaviour:
   lerpTime: 0.3
   smooth: 0
   defaltFOV: 0
+  closeDistence: 1.5
+  defaltFOVLerpTime: 0.5
 --- !u!1001 &384789623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -333,7 +335,7 @@ GameObject:
   - component: {fileID: 891380905}
   m_Layer: 0
   m_Name: sceneManiger
-  m_TagString: Untagged
+  m_TagString: SceneManiger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

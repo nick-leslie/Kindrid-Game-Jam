@@ -9,6 +9,8 @@ TagManager:
   - PlayerSpawnPos
   - InvantroySlot
   - PlacementUI
+  - SceneManiger
+  - triggerZone
   layers:
   - Default
   - TransparentFX

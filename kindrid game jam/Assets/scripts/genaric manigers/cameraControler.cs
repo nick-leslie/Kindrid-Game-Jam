@@ -14,6 +14,13 @@ public class cameraControler : MonoBehaviour
     [SerializeField]
     public float defaltFOV;
     private Camera cam;
+    [SerializeField]
+    private float closeDistence;
+    private bool lerpFOV;
+    private float targetFOV;
+    private float FOVLerpTime;
+    [SerializeField]
+    private float defaltFOVLerpTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +28,8 @@ public class cameraControler : MonoBehaviour
         tracked = defaltTracked;
         cam = gameObject.GetComponent<Camera>();
         defaltFOV = cam.fieldOfView;
+        targetFOV = defaltFOV;
+        FOVLerpTime = defaltFOVLerpTime;
     }
 
     // Update is called once per frame
@@ -35,6 +44,10 @@ public class cameraControler : MonoBehaviour
         {
             transform.position = cam;
         }
+        if(targetFOV != Camera.main.fieldOfView)
+        {
+            Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, targetFOV, FOVLerpTime * Time.deltaTime);
+        }
     }
     public void SwapLerpTiming(float lerpValue)
     {
@@ -45,12 +58,47 @@ public class cameraControler : MonoBehaviour
     {
         dynamicLerp = lerpTime;
     }
-    public void ChangeFOV(float newFOV)
+    public void ChangeFOV(float newFOV,float FOVlerp)
     {
-        cam.fieldOfView = newFOV;
+        targetFOV = newFOV;
+        FOVLerpTime = FOVlerp;
     }
     public void resetFOV()
     {
-        cam.fieldOfView = defaltFOV;
+        targetFOV = defaltFOV;
+        FOVLerpTime = defaltFOVLerpTime;
+    }
+    public void MoveCamera(Transform target,float heldTime)
+    {
+        smooth = true;
+        tracked = target;
+        StartCoroutine(ResetCammra(heldTime));
+    }
+    public void MoveCamera(Transform target, float heldTime, float FOV,float FovLerpTime)
+    {
+        smooth = true;
+        tracked = target;
+        if (FOV > 0)
+        {
+            ChangeFOV(targetFOV + FOV, FovLerpTime);
+        }
+        StartCoroutine(ResetCammra(heldTime));
+    }
+    IEnumerator ResetCammra(float heldTime)
+    {
+        while (Vector2.Distance(transform.position, tracked.position) > closeDistence)
+        {
+            yield return null;
+        }
+        yield return new WaitForSecondsRealtime(heldTime);
+        resetFOV();
+        tracked = defaltTracked;
+       
+        while(Vector2.Distance(transform.position,defaltTracked.position) > closeDistence)
+        {
+            yield return null;
+        }
+        //Debug.Log("should reset");
+        smooth = false;
     }
 }
