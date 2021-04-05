@@ -5,6 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       ticks: 637530777689825964
     m_Hash: 1560149042
@@ -12,12 +13,17 @@ m_ProjectFiles:
       ticks: 637530863576737350
     m_Hash: 2600559165
 >>>>>>> b4ffc88f9f1333f42c64c6bf38076a685676fbc7
+=======
+      ticks: 637532475523703803
+    m_Hash: 2776565577
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/Cam/Desktop/Gamer Jamer/Kindrid-Game-Jam/kindrid game jam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       ticks: 637530777690045744
     m_Hash: 1947293602
@@ -25,6 +31,10 @@ m_ProjectFiles:
       ticks: 637530863576847357
     m_Hash: 3714805411
 >>>>>>> b4ffc88f9f1333f42c64c6bf38076a685676fbc7
+=======
+      ticks: 637532475523713786
+    m_Hash: 1555986336
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
