@@ -17,7 +17,7 @@ public class InvantorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDr
     public void Start()
     {
         dragElement = GameObject.FindGameObjectWithTag("DragElement");
-        canvas = GameObject.FindGameObjectWithTag("MainUI").GetComponent<Canvas>();
+        canvas = GameObject.FindGameObjectWithTag("PlacementUI").GetComponent<Canvas>();
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -51,9 +51,11 @@ public class InvantorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDr
                 Vector3 pos = new Vector3(camPos.x, camPos.y, 0);
                 Instantiate(CurrentItem, pos, Quaternion.identity);
             }
-        if (amount <= 0)
+        if (amount-1 <= 0)
         {
+            amount--;
             CurrentItem = null;
+            gameObject.GetComponent<Image>().enabled = false;
             //add logic for deleting the 
         } 
         else

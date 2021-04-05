@@ -57,10 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\player\moveing\Movement.cs" />
-    <Compile Include="Assets\scripts\cameraControler.cs" />
+    <Compile Include="Assets\scripts\genaric manigers\cameraControler.cs" />
     <Compile Include="Assets\scripts\player\moveing\grounedManiger.cs" />
     <Compile Include="Assets\scripts\dm\InvantorySlot.cs" />
-    <Compile Include="Assets\scripts\sceneManiger.cs" />
+    <Compile Include="Assets\scripts\genaric manigers\sceneManiger.cs" />
+    <Compile Include="Assets\scripts\player\HealthManiger.cs" />
+    <Compile Include="Assets\scripts\dm\InvantoryManiger.cs" />
+    <Compile Include="Assets\scripts\Pickups\blockPickup.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
