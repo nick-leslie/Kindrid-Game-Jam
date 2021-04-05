@@ -7,6 +7,8 @@ TagManager:
   - DragElement
   - MainUI
   - PlayerSpawnPos
+  - InvantroySlot
+  - PlacementUI
   layers:
   - Default
   - TransparentFX

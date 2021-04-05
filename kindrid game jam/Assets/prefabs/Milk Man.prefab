@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4415412265394131272}
   - component: {fileID: 4415412265394131279}
   - component: {fileID: 4415412265394131276}
+  - component: {fileID: 630503558925505113}
   m_Layer: 0
   m_Name: Milk Man
   m_TagString: Player
@@ -205,7 +206,10 @@ MonoBehaviour:
   MovementSpeed: 7
   moveDire: {x: 0, y: 0}
   jumpVelocity: 5
+  canJump: 0
   JumpWaitTime: 0.5
+  fallMultiplyer: 2.5
+  lowJumpMultiplier: 1
   groundedManiger: {fileID: 4415412266438371772}
   deadStop: 0
   lerpSpeed: 0.1
@@ -256,6 +260,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &630503558925505113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415412265394131273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aadf3f692f28fc438732b05128ce027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 3
 --- !u!1 &4415412266438371772
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,5 +343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a547cf2ca6120d43a2eb68dbed6fdd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grouned: 0
   coyoteTime: 0.3
   landingTime: 0.1
