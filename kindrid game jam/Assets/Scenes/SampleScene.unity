@@ -674,8 +674,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
-      propertyPath: disableAfterUse
+      propertyPath: DammageAmount
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: dammagePlayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: disableAfterUse
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}

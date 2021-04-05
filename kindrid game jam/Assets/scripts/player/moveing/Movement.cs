@@ -73,7 +73,6 @@ public class Movement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext context)
     {
-        Debug.Log("should be jumping canJump");
         if(context.phase == InputActionPhase.Started)
         {
             if (canJump == true && groundedManiger.GetComponent<grounedManiger>().Grouned == true)
@@ -82,7 +81,6 @@ public class Movement : MonoBehaviour
                 canJump = false;
                 jumpOveride = true;
                 StartCoroutine("waitToJump");
-                Debug.Log("jumped");
             }
             jumpHeld = true;
         }
