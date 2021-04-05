@@ -104,6 +104,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -331,7 +332,15 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/scripts/player/Movement.cs"
+"Assets/scripts/dm/InvantoryManiger.cs"
+"Assets/scripts/dm/InvantorySlot.cs"
+"Assets/scripts/genaric manigers/cameraControler.cs"
+"Assets/scripts/genaric manigers/sceneManiger.cs"
+"Assets/scripts/interacters/blockPickup.cs"
+"Assets/scripts/interacters/TriggerZone.cs"
+"Assets/scripts/player/HealthManiger.cs"
+"Assets/scripts/player/moveing/grounedManiger.cs"
+"Assets/scripts/player/moveing/Movement.cs"
 -langversion:8.0
 
 /deterministic
