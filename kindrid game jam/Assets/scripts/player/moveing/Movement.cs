@@ -14,10 +14,16 @@ public class Movement : MonoBehaviour
     [Header("Jump")]
     [SerializeField]
     private float jumpVelocity;
+    [SerializeField]
     private bool canJump;
     [SerializeField]
     private float JumpWaitTime;
     private bool jumpOveride;
+    [SerializeField]
+    private float fallMultiplyer = 2.5f;
+    [SerializeField]
+    private float lowJumpMultiplier = 1f;
+    private bool jumpHeld;
     //------------------- refrences
     private Rigidbody2D rb;
     [SerializeField]
@@ -26,6 +32,9 @@ public class Movement : MonoBehaviour
     public bool deadStop;
     //public float stopSpeed;
     public float lerpSpeed;
+
+    //------------------------
+    
     //public Vector2 velcocity;
     //private BoxCollider2D groundedManiger()
     // Start is called before the first frame update
@@ -44,20 +53,40 @@ public class Movement : MonoBehaviour
         {
             canJump = true;
         }
+        if (rb.velocity.y < 0 )
+        {
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplyer - 1) * Time.deltaTime;
+        }
+        else if (rb.velocity.y > 0 && jumpHeld == false)
+        {
+            //Debug.Log("low fall " + jumpHeld);
+            rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+        }
+        //Debug.Log(jumpHeld);
+
         //canJump = groundedManiger.GetComponent<grounedManiger>().Grouned;
     }
     public void Jump(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Performed)
+        Debug.Log("should be jumping canJump");
+        if(context.phase == InputActionPhase.Started)
         {
-            if (canJump == true && groundedManiger.GetComponent<grounedManiger>().Grouned ==true)
+            if (canJump == true && groundedManiger.GetComponent<grounedManiger>().Grouned == true)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpVelocity);
+                rb.velocity = Vector2.up * jumpVelocity;
                 canJump = false;
                 jumpOveride = true;
                 StartCoroutine("waitToJump");
-                //Debug.Log("jumped");
+                Debug.Log("jumped");
             }
+            jumpHeld = true;
+        }
+        if (context.phase == InputActionPhase.Performed)
+        {
+            jumpHeld = true;
+        } else if(context.phase == InputActionPhase.Canceled)
+        {
+            jumpHeld = false;
         }
     }
     public void Move(InputAction.CallbackContext context)
