@@ -24,6 +24,8 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float lowJumpMultiplier = 1f;
     private bool jumpHeld;
+    [SerializeField]
+    private bool disableMove = false;
     //------------------- refrences
     private Rigidbody2D rb;
     [SerializeField]
@@ -46,7 +48,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
+        if (disableMove == true)
+        {
+            rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
+        }
         rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
         //velcocity = rb.velocity;
         if(groundedManiger.GetComponent<grounedManiger>().Grouned == true && jumpOveride == false)
