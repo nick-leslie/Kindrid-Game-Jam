@@ -334,6 +334,7 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/scripts/dm/InvantoryManiger.cs"
 "Assets/scripts/dm/InvantorySlot.cs"
+"Assets/scripts/genaric manigers/audioManiger.cs"
 "Assets/scripts/genaric manigers/cameraControler.cs"
 "Assets/scripts/genaric manigers/sceneManiger.cs"
 "Assets/scripts/interacters/blockPickup.cs"

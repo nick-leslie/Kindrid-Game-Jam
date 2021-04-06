@@ -11,9 +11,10 @@ public class InvantorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDr
     [SerializeField]
     public Vector3 screenPoint;
     private Vector2 screenPointRaw;
+    [SerializeField]
     private GameObject dragElement;
     private Canvas canvas;
-    private Vector2 lastMousePosition;
+    //private Vector2 lastMousePosition;
     public void Start()
     {
         dragElement = GameObject.FindGameObjectWithTag("DragElement");
@@ -24,6 +25,7 @@ public class InvantorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDr
         if (amount > 0)
         {
             Image imgElemnt = dragElement.GetComponent<Image>();
+            Debug.Log(dragElement.GetComponent<Image>().enabled);
             imgElemnt.enabled = true;
             imgElemnt.sprite = gameObject.GetComponent<Image>().sprite;
 
@@ -35,6 +37,9 @@ public class InvantorySlot : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDr
     {
         if (amount > 0)
         {
+            Image imgElemnt = dragElement.GetComponent<Image>();
+            imgElemnt.enabled = true;
+            imgElemnt.sprite = gameObject.GetComponent<Image>().sprite;
             dragElement.GetComponent<RectTransform>().anchoredPosition = eventData.delta / canvas.scaleFactor;
             dragElement.transform.position = Input.mousePosition;
         }

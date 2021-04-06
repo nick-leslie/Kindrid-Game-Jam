@@ -30,6 +30,7 @@ public class InvantoryManiger : MonoBehaviour
                 Image slotImg = slotObj[i].GetComponent<Image>();
                 slotImg.enabled = true;
                 slotImg.sprite = ProposedItem.GetComponent<SpriteRenderer>().sprite;
+                slots[i].amount += 1;
                 break;
             }
         }
