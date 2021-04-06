@@ -6,6 +6,8 @@ public class TriggerZone : MonoBehaviour
 {
     [SerializeField]
     private bool disableAfterUse;
+    [SerializeField]
+    private bool DestoryAfterUse;
     private bool used;
     //----------------------- levle things
     [Header("levle swap things")]
@@ -142,6 +144,10 @@ public class TriggerZone : MonoBehaviour
                     {
                         aManiger.PlaySfx(SFXNames[i]);
                     }
+                }
+                if(DestoryAfterUse)
+                {
+                    Destroy(gameObject);
                 }
             }
         }

@@ -66,6 +66,8 @@
     <Compile Include="Assets\scripts\dm\InvantorySlot.cs" />
     <Compile Include="Assets\scripts\genaric manigers\sceneManiger.cs" />
     <Compile Include="Assets\scripts\player\HealthManiger.cs" />
+    <Compile Include="Assets\scripts\AI\backAndForthAI.cs" />
+    <Compile Include="Assets\scripts\AI\AIbrain.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
