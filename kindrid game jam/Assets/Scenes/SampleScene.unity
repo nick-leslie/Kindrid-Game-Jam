@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260721527}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.2681, y: -6.71, z: 0}
+  m_LocalPosition: {x: -4.17, y: -6.68, z: 0}
   m_LocalScale: {x: 0.72149605, y: 0.72149605, z: 0.72149605}
   m_Children: []
   m_Father: {fileID: 0}
@@ -647,15 +647,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
       propertyPath: timeHeld
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
       propertyPath: ChangeFOV
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
       propertyPath: ChangeFov
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: triggerSFX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
       propertyPath: ChangeLevle
@@ -674,6 +678,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: moveLerpTime
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
       propertyPath: DammageAmount
       value: 1
       objectReference: {fileID: 0}
@@ -683,7 +691,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
       propertyPath: disableAfterUse
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: NextBackgroundJam
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: SFXNames.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520407497782976898, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}
+      propertyPath: SFXNames.Array.data[0]
+      value: stinky stick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8913fd9ddf912f543be5e8d09d75246f, type: 3}

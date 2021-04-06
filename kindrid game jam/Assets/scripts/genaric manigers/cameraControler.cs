@@ -21,6 +21,8 @@ public class cameraControler : MonoBehaviour
     private float FOVLerpTime;
     [SerializeField]
     private float defaltFOVLerpTime;
+    private GameObject player;
+    private GameObject PlacementUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,8 @@ public class cameraControler : MonoBehaviour
         defaltFOV = cam.fieldOfView;
         targetFOV = defaltFOV;
         FOVLerpTime = defaltFOVLerpTime;
+        player = GameObject.FindGameObjectWithTag("Player");
+        PlacementUI = GameObject.FindGameObjectWithTag("PlacementUI");
     }
 
     // Update is called once per frame
@@ -68,16 +72,24 @@ public class cameraControler : MonoBehaviour
         targetFOV = defaltFOV;
         FOVLerpTime = defaltFOVLerpTime;
     }
-    public void MoveCamera(Transform target,float heldTime)
+    public void MoveCamera(Transform target, float heldTime)
     {
         smooth = true;
         tracked = target;
         StartCoroutine(ResetCammraAfterLook(heldTime));
     }
-    public void MoveCamera(Transform target, float heldTime, float FOV,float FovLerpTime)
+    public void MoveCamera(Transform target,float moveLerpTime, float heldTime)
+    {
+        smooth = true;
+        dynamicLerp = moveLerpTime;
+        tracked = target;
+        StartCoroutine(ResetCammraAfterLook(heldTime));
+    }
+    public void MoveCamera(Transform target,float moveLerpTime ,float heldTime, float FOV,float FovLerpTime)
     {
         smooth = true;
         tracked = target;
+        dynamicLerp = moveLerpTime;
         if (FOV > 0)
         {
             ChangeFOV(targetFOV + FOV, FovLerpTime);
@@ -86,6 +98,8 @@ public class cameraControler : MonoBehaviour
     }
     IEnumerator ResetCammraAfterLook(float heldTime)
     {
+        player.GetComponent<Movement>().disableMovement();
+        PlacementUI.GetComponent<Canvas>().enabled = false;
         while (Vector2.Distance(transform.position, tracked.position) > closeDistence)
         {
             yield return null;
@@ -98,6 +112,8 @@ public class cameraControler : MonoBehaviour
         {
             yield return null;
         }
+        player.GetComponent<Movement>().EnableMovement();
+        PlacementUI.GetComponent<Canvas>().enabled = true;
         //Debug.Log("should reset");
         smooth = false;
     }
