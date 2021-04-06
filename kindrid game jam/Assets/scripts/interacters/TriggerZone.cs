@@ -27,6 +27,8 @@ public class TriggerZone : MonoBehaviour
     [SerializeField]
     private float FOVLerpTime;
     [SerializeField]
+    private float moveLerpTime;
+    [SerializeField]
     private float timeHeld;
     //---------------------- Player
     [Header("Player things")]
@@ -42,6 +44,11 @@ public class TriggerZone : MonoBehaviour
     private bool healPlayer;
     [SerializeField]
     private bool changePos;
+    [SerializeField]
+    private bool DisableMove;
+    private float EnableMoveAfter;
+    [SerializeField]
+    private bool disableUI;
     //values
     [SerializeField]
     private int DammageAmount;
@@ -79,6 +86,10 @@ public class TriggerZone : MonoBehaviour
         {
             if (used == false)
             {
+                if (disableAfterUse == true)
+                {
+                    used = true;
+                }
                 if (ChangeLevle == true)
                 {
                     SceneManiger.LoadNextLevle();
@@ -93,12 +104,16 @@ public class TriggerZone : MonoBehaviour
                 {
                     if (ChangeFOV != true)
                     {
-                        cammraControler.MoveCamera(CinimaTarget, timeHeld);
+                        cammraControler.MoveCamera(CinimaTarget,moveLerpTime ,timeHeld);
                     } else
                     {
-                        cammraControler.MoveCamera(CinimaTarget, timeHeld, FOVMod, FOVLerpTime);
+                        cammraControler.MoveCamera(CinimaTarget,moveLerpTime, timeHeld, FOVMod, FOVLerpTime);
                         
                     }
+                }
+                if(DisableMove)
+                {
+                    player.GetComponent<Movement>().disableMovement(EnableMoveAfter);
                 }
                 if(dammagePlayer)
                 {
@@ -114,24 +129,19 @@ public class TriggerZone : MonoBehaviour
                 }
                 if(ChangeBackgroundJam == true)
                 {
-                    if(NextBackgroundJam == true)
-                    {
-                        aManiger.PlayNextBackground();
-                    } else
-                    {
-                        aManiger.PlayBackgroundSong(JamName);
-                    }
+                    aManiger.PlayBackgroundSong(JamName);
                 }
-                if(triggerSFX)
+                if (NextBackgroundJam == true)
+                {
+                    aManiger.PlayNextBackground();
+                    return;
+                }
+                if (triggerSFX)
                 {
                     for(int i=0;i<SFXNames.Length;i++)
                     {
                         aManiger.PlaySfx(SFXNames[i]);
                     }
-                }
-                if(disableAfterUse == true)
-                {
-                    used = true;
                 }
             }
         }

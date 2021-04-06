@@ -50,8 +50,9 @@ public class Movement : MonoBehaviour
     {
         if (disableMove == true)
         {
-            rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
+            moveDire = Vector2.zero;
         }
+        rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
         rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
         //velcocity = rb.velocity;
         if(groundedManiger.GetComponent<grounedManiger>().Grouned == true && jumpOveride == false)
@@ -107,5 +108,23 @@ public class Movement : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(JumpWaitTime);
         jumpOveride = false;
+    }
+    public void disableMovement()
+    {
+        Debug.Log("dissabled movment called");
+        disableMove = true;
+    }
+    public void EnableMovement()
+    {
+        disableMove = false;
+    }
+    public void disableMovement(float timeTillEnable)
+    {
+        disableMove = true;
+        StartCoroutine(reEnableMovement(timeTillEnable));
+    }
+    IEnumerator reEnableMovement(float timeTillEnable)
+    {
+        yield return new WaitForSecondsRealtime(timeTillEnable);
     }
 }
