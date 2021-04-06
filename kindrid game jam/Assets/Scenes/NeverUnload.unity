@@ -233,6 +233,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2731855884382109272, guid: 0922fe04b4ea27d4a98c86937a4c0329, type: 3}
+      propertyPath: m_Name
+      value: DragImage
+      objectReference: {fileID: 0}
     - target: {fileID: 2731855884634923912, guid: 0922fe04b4ea27d4a98c86937a4c0329, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -367,6 +371,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1077360468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1077360469}
+  - component: {fileID: 1077360470}
+  m_Layer: 0
+  m_Name: audioManiger
+  m_TagString: audioManiger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1077360469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077360468}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04, y: -0.05, z: -8.853719}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1551642325}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1077360470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077360468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7febe2b7a347e4a90b5e0015f5da18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundJams:
+  - {fileID: 8300000, guid: 521cbb07251f6fd4d9ac2adf8928709b, type: 3}
+  - {fileID: 8300000, guid: 12fd72ee399b9d840a17a94e797d196c, type: 3}
+  Interactions:
+  - {fileID: 8300000, guid: 12fd72ee399b9d840a17a94e797d196c, type: 3}
+  - {fileID: 8300000, guid: 521cbb07251f6fd4d9ac2adf8928709b, type: 3}
+  backgroundVolume: 0.5
+  sfxVolume: 0
 --- !u!1 &1406758212
 GameObject:
   m_ObjectHideFlags: 0

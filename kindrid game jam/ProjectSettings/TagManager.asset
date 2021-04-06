@@ -11,6 +11,7 @@ TagManager:
   - PlacementUI
   - SceneManiger
   - triggerZone
+  - audioManiger
   layers:
   - Default
   - TransparentFX

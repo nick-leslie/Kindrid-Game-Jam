@@ -13,6 +13,7 @@ public class TriggerZone : MonoBehaviour
     private bool ChangeLevle;
     private sceneManiger SceneManiger;
     //----------------------- cinima things
+    [SerializeField]
     [Header("camera things")]
     private cameraControler cammraControler;
     [SerializeField]
@@ -27,8 +28,9 @@ public class TriggerZone : MonoBehaviour
     private float FOVLerpTime;
     [SerializeField]
     private float timeHeld;
-    //---------------------- Player things
+    //---------------------- Player
     [Header("Player things")]
+    [SerializeField]
     private GameObject player;
     private HealthManiger healthManiger;
     //flags
@@ -47,12 +49,29 @@ public class TriggerZone : MonoBehaviour
     private int HealAmount;
     [SerializeField]
     private Transform newPos;
+    //------------------------sound stuff
+    [SerializeField]
+    [Header("BackgroundSound stuff")]
+    private audioManiger aManiger;
+    [SerializeField]
+    private bool ChangeBackgroundJam;
+    [SerializeField]
+    private bool NextBackgroundJam;
+    [SerializeField]
+    private string JamName;
+
+    [Header("sfx stuff")]
+    [SerializeField]
+    private bool triggerSFX;
+    [SerializeField]
+    private string[] SFXNames;
     private void Start()
     {
         SceneManiger = GameObject.FindGameObjectWithTag("SceneManiger").GetComponent<sceneManiger>();
         cammraControler = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<cameraControler>();
         player = GameObject.FindGameObjectWithTag("Player");
         healthManiger = player.GetComponent<HealthManiger>();
+        aManiger = GameObject.FindGameObjectWithTag("audioManiger").GetComponent<audioManiger>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -92,6 +111,23 @@ public class TriggerZone : MonoBehaviour
                 if(changePos)
                 {
                     player.transform.position = newPos.position;
+                }
+                if(ChangeBackgroundJam == true)
+                {
+                    if(NextBackgroundJam == true)
+                    {
+                        aManiger.PlayNextBackground();
+                    } else
+                    {
+                        aManiger.PlayBackgroundSong(JamName);
+                    }
+                }
+                if(triggerSFX)
+                {
+                    for(int i=0;i<SFXNames.Length;i++)
+                    {
+                        aManiger.PlaySfx(SFXNames[i]);
+                    }
                 }
                 if(disableAfterUse == true)
                 {
