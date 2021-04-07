@@ -30,14 +30,6 @@ public class backAndForthAI : MonoBehaviour
     {
         down = Physics2D.Raycast(pathfinder.transform.position, -Vector2.up, brain.RaySize);
         leftRigt = Physics2D.Raycast(pathfinder.transform.position, (moveDire * frountOveride) * Vector2.right, brain.RaySize);
-        if (leftRigt.collider != null)
-        {
-            Debug.Log(leftRigt.collider.name);
-        }
-        if (down.collider != null)
-        {
-            Debug.Log(down.collider.name);
-        }
         if (down.collider != null && leftRigt.collider == null)
         {
             transform.Translate(brain.Speed * Time.deltaTime, 0, 0);
@@ -46,7 +38,11 @@ public class backAndForthAI : MonoBehaviour
         {
                 if (leftRigt.collider != null)
                 {
-
+                    if(leftRigt.collider.CompareTag("Player"))
+                    {
+                        
+                    }
+                    
                     Flip();
                 }
                 else

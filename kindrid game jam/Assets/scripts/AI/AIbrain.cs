@@ -8,6 +8,7 @@ public class AIbrain : MonoBehaviour
     private float speed;
     [SerializeField]
     private float raySize;
+    
     public float Speed
     {
         get
@@ -22,16 +23,12 @@ public class AIbrain : MonoBehaviour
             return raySize;
         }
     }
-    
-    // Start is called before the first frame update
-    void Start()
+    public void attack()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    }
+    public void DealDammage()
     {
-        
+
     }
 }
