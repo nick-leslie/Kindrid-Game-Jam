@@ -1,13 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class HealthManiger : MonoBehaviour
 {
     //TODO ADD UI CODE
     [SerializeField]
     private int MaxHealth;
     private int health;
+    private GameObject HealthCanvus;
+    [SerializeField]
+    private GameObject HealthPrefb;
+    private GameObject[] hearts;
+    [SerializeField]
+    private Transform startPos;
+    [SerializeField]
+    private Vector3 offset;
     public int Health
     {
         get 
@@ -25,6 +33,13 @@ public class HealthManiger : MonoBehaviour
     private void Start()
     {
         health = MaxHealth;
+        hearts = new GameObject[MaxHealth];
+        HealthCanvus = GameObject.FindGameObjectWithTag("PlayerUI");
+        //this should work but if not shit
+        for(int i=0;i<hearts.Length;i++)
+        {
+            hearts[i] =Instantiate(HealthPrefb, (startPos.position + (offset * (i))) / HealthCanvus.GetComponent<Canvas>().scaleFactor,startPos.rotation);
+            hearts[i].GetComponent<RectTransform>().SetParent(HealthCanvus.transform);        }
     }
     private Transform respawnPoint;
     public void changeSpawn(Transform newSpawn)
@@ -33,7 +48,11 @@ public class HealthManiger : MonoBehaviour
     }
     public void DealDamage(int dammage)
     {
-        health -= dammage;
+        if (health - dammage >= 0)
+        {
+            hearts[dammage].SetActive(false);
+            health -= dammage;
+        }
         if (health <= 0)
         {
             death();
@@ -41,10 +60,14 @@ public class HealthManiger : MonoBehaviour
     }
     public void Heal(int amount)
     {
-        health += amount;
-        if(health > MaxHealth)
+        if (health + amount <= MaxHealth) {
+            health += amount;
+            hearts[health].SetActive(true);
+        }
+        else
         {
             health = MaxHealth;
+            hearts[health].SetActive(true);
         }
     }
     public void death()
