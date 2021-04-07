@@ -11,7 +11,7 @@ public class AIbrain : MonoBehaviour
     [SerializeField]
     private Transform attackPos;
     [SerializeField]
-    private Vector2 attackSize;
+    private Vector3 attackSize;
     [SerializeField]
     private int Dammage;
     
@@ -32,9 +32,9 @@ public class AIbrain : MonoBehaviour
     public void attack()
     {
         //trigger animation
-
+        gameObject.GetComponent<Animator>().SetBool("shouldKick", true);
     }
-    public void dealDammage()
+    public void DealDammage()
     {
         Collider2D[] thingsInZone = Physics2D.OverlapBoxAll(attackPos.position, attackSize, 0);
         for (int i = 0; i < thingsInZone.Length; i++)
@@ -44,5 +44,9 @@ public class AIbrain : MonoBehaviour
                 thingsInZone[i].GetComponent<HealthManiger>().DealDamage(Dammage);
             }
         }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(attackPos.position, attackSize);
     }
 }

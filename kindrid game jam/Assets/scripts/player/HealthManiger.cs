@@ -7,6 +7,7 @@ public class HealthManiger : MonoBehaviour
     //TODO ADD UI CODE
     [SerializeField]
     private int MaxHealth;
+    [SerializeField]
     private int health;
     private GameObject HealthCanvus;
     [SerializeField]
@@ -50,7 +51,7 @@ public class HealthManiger : MonoBehaviour
     {
         if (health - dammage >= 0)
         {
-            hearts[dammage].SetActive(false);
+            hearts[health-1].SetActive(false);
             health -= dammage;
         }
         if (health <= 0)
