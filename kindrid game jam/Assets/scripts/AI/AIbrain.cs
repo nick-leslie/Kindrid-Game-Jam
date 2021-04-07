@@ -8,6 +8,12 @@ public class AIbrain : MonoBehaviour
     private float speed;
     [SerializeField]
     private float raySize;
+    [SerializeField]
+    private Transform attackPos;
+    [SerializeField]
+    private Vector2 attackSize;
+    [SerializeField]
+    private int Dammage;
     
     public float Speed
     {
@@ -25,10 +31,18 @@ public class AIbrain : MonoBehaviour
     }
     public void attack()
     {
+        //trigger animation
 
     }
-    public void DealDammage()
+    public void dealDammage()
     {
-
+        Collider2D[] thingsInZone = Physics2D.OverlapBoxAll(attackPos.position, attackSize, 0);
+        for (int i = 0; i < thingsInZone.Length; i++)
+        {
+            if (thingsInZone[i].CompareTag("Player"))
+            {
+                thingsInZone[i].GetComponent<HealthManiger>().DealDamage(Dammage);
+            }
+        }
     }
 }

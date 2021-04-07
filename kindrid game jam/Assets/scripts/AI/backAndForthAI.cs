@@ -40,10 +40,8 @@ public class backAndForthAI : MonoBehaviour
                 {
                     if(leftRigt.collider.CompareTag("Player"))
                     {
-                        
+                        brain.attack();   
                     }
-                    
-                    Flip();
                 }
                 else
                 {

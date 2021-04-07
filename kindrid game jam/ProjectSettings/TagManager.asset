@@ -12,6 +12,8 @@ TagManager:
   - SceneManiger
   - triggerZone
   - audioManiger
+  - heart
+  - PlayerUI
   layers:
   - Default
   - TransparentFX
