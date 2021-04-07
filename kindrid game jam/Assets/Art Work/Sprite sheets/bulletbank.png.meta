@@ -163,10 +163,10 @@ TextureImporter:
       name: bulletbank_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 437
         y: 0
-        width: 256
-        height: 256
+        width: 1176
+        height: 1280
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: bulletbank_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
+        x: 1634
+        y: 5
+        width: 1176
+        height: 1273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: bulletbank_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 256
-        height: 256
+        x: 3067
+        y: 150
+        width: 967
+        height: 1031
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: bulletbank_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 256
-        height: 256
+        x: 4346
+        y: 150
+        width: 999
+        height: 1047
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: bulletbank_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 256
-        height: 256
+        x: 5657
+        y: 134
+        width: 886
+        height: 1031
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: bulletbank_5
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 256
-        height: 256
+        x: 6898
+        y: 150
+        width: 966
+        height: 967
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: bulletbank_6
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 256
-        height: 256
+        x: 8138
+        y: 199
+        width: 1127
+        height: 982
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: bulletbank_7
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 0
-        width: 256
-        height: 256
+        x: 9475
+        y: 150
+        width: 918
+        height: 999
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +331,10 @@ TextureImporter:
       name: bulletbank_8
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 0
-        width: 256
-        height: 256
+        x: 10737
+        y: 86
+        width: 983
+        height: 1047
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: bulletbank_9
       rect:
         serializedVersion: 2
-        x: 2304
-        y: 0
-        width: 256
-        height: 256
+        x: 12042
+        y: 150
+        width: 918
+        height: 983
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: bulletbank_10
       rect:
         serializedVersion: 2
-        x: 2560
-        y: 0
-        width: 256
-        height: 256
+        x: 13279
+        y: 134
+        width: 1079
+        height: 1146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: bulletbank_11
       rect:
         serializedVersion: 2
-        x: 2816
-        y: 0
-        width: 256
-        height: 256
+        x: 14455
+        y: 70
+        width: 1015
+        height: 1192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: bulletbank_12
       rect:
         serializedVersion: 2
-        x: 3072
-        y: 0
-        width: 256
-        height: 256
+        x: 15615
+        y: 102
+        width: 1176
+        height: 1144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: bulletbank_13
       rect:
         serializedVersion: 2
-        x: 3328
-        y: 0
-        width: 256
-        height: 256
+        x: 16903
+        y: 102
+        width: 1144
+        height: 1178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -457,10 +457,10 @@ TextureImporter:
       name: bulletbank_14
       rect:
         serializedVersion: 2
-        x: 3584
-        y: 0
-        width: 256
-        height: 256
+        x: 18353
+        y: 118
+        width: 1031
+        height: 1162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
