@@ -115,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brain: {fileID: 0}
   moveDire: 1
+  frountOveride: -1
 --- !u!61 &4902172542260685852
 BoxCollider2D:
   m_ObjectHideFlags: 0
