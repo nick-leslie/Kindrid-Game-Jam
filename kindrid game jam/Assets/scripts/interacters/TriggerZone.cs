@@ -50,6 +50,8 @@ public class TriggerZone : MonoBehaviour
     private bool DisableMove;
     private float EnableMoveAfter;
     [SerializeField]
+    public bool shouldAttack = true;
+    [SerializeField]
     private bool disableUI;
     //values
     [SerializeField]
@@ -119,7 +121,10 @@ public class TriggerZone : MonoBehaviour
                 }
                 if(dammagePlayer)
                 {
-                    healthManiger.DealDamage(DammageAmount);
+                    if (shouldAttack==true)
+                    {
+                        healthManiger.DealDamage(DammageAmount);
+                    }
                 }
                 if(healPlayer)
                 {

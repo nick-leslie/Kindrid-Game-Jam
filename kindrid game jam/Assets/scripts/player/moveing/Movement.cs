@@ -51,6 +51,7 @@ public class Movement : MonoBehaviour
         if (disableMove == true)
         {
             moveDire = Vector2.zero;
+            rb.velocity = Vector2.zero;
         }
         rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
         rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
@@ -126,5 +127,6 @@ public class Movement : MonoBehaviour
     IEnumerator reEnableMovement(float timeTillEnable)
     {
         yield return new WaitForSecondsRealtime(timeTillEnable);
+        disableMove = false;
     }
 }
