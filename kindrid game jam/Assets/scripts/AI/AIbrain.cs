@@ -8,6 +8,13 @@ public class AIbrain : MonoBehaviour
     private float speed;
     [SerializeField]
     private float raySize;
+    [SerializeField]
+    private Transform attackPos;
+    [SerializeField]
+    private Vector3 attackSize;
+    [SerializeField]
+    private int Dammage;
+    
     public float Speed
     {
         get
@@ -22,16 +29,24 @@ public class AIbrain : MonoBehaviour
             return raySize;
         }
     }
-    
-    // Start is called before the first frame update
-    void Start()
+    public void attack()
     {
-        
+        //trigger animation
+        gameObject.GetComponent<Animator>().SetBool("shouldKick", true);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void DealDammage()
     {
-        
+        Collider2D[] thingsInZone = Physics2D.OverlapBoxAll(attackPos.position, attackSize, 0);
+        for (int i = 0; i < thingsInZone.Length; i++)
+        {
+            if (thingsInZone[i].CompareTag("Player"))
+            {
+                thingsInZone[i].GetComponent<HealthManiger>().DealDamage(Dammage);
+            }
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(attackPos.position, attackSize);
     }
 }

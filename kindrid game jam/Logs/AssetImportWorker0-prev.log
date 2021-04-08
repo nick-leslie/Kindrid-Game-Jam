@@ -1,0 +1,1956 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.1f1 (6fdc41dfa55a) revision 7330881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 32512 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nickl/Desktop/programing/C#/unity/Kindrid-Game-Jam/kindrid game jam
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+4334
+Successfully changed project path to: C:/Users/nickl/Desktop/programing/C#/unity/Kindrid-Game-Jam/kindrid game jam
+C:/Users/nickl/Desktop/programing/C#/unity/Kindrid-Game-Jam/kindrid game jam
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.1f1 (6fdc41dfa55a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nickl/Desktop/programing/C#/unity/Kindrid-Game-Jam/kindrid game jam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 with Max-Q Design (ID=0x1f12)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003783 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.2 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2621.
+Total: 2.605000 ms (FindLiveObjects: 0.245800 ms CreateObjectMapping: 0.126700 ms MarkObjects: 2.174900 ms  DeleteObjects: 0.056900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art Work/gun with walk/gun with legs walking0002.png
+  artifactKey: Guid(8b47c7ec1dfce6a4dab94ea533e11429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0002.png using Guid(8b47c7ec1dfce6a4dab94ea533e11429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6de2e79185652f0978b76afe924f8f') in 0.150306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0004.png
+  artifactKey: Guid(cc48d89cfbf6aa242ab6942d75d6a94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0004.png using Guid(cc48d89cfbf6aa242ab6942d75d6a94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cebe591787652bebc4eb851f7e0bd2') in 0.019808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0019.png
+  artifactKey: Guid(be06096965add824884eb92ac2c04d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0019.png using Guid(be06096965add824884eb92ac2c04d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecec382d21ad74a5876f8f907b443217') in 0.022588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0007.png
+  artifactKey: Guid(a62e138d751406340831889f48dadd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0007.png using Guid(a62e138d751406340831889f48dadd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6ffd02ec54f488ebe753781cb66510') in 0.020251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0018.png
+  artifactKey: Guid(172ee85d7a7b0cc4b8dcc2da87526639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0018.png using Guid(172ee85d7a7b0cc4b8dcc2da87526639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f09a83ab826a69eab74c92d19b5861c') in 0.016652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0005.png
+  artifactKey: Guid(d313e8cb8bf38d443847896fc7ccadb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0005.png using Guid(d313e8cb8bf38d443847896fc7ccadb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f0939049de9498b373e93616f8e3fa') in 0.015771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0006.png
+  artifactKey: Guid(d6b9ac57ec745f14db37e182fcfba88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0006.png using Guid(d6b9ac57ec745f14db37e182fcfba88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185281dfd8131def7fa1641a3e8c05d') in 0.014454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0013.png
+  artifactKey: Guid(dba1dfaef01521c45abc1f100b15d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0013.png using Guid(dba1dfaef01521c45abc1f100b15d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339b4ed4d9be9ac6a4003226b888c39c') in 0.017015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0001.png
+  artifactKey: Guid(0df3f2808b60b19408942894be16f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0001.png using Guid(0df3f2808b60b19408942894be16f4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0998e8cb795c6cdbe837414aaa3feb') in 0.019785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0008.png
+  artifactKey: Guid(3b074eb235b199a4ebb919eb332ce180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0008.png using Guid(3b074eb235b199a4ebb919eb332ce180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10df93ba360aa87d39eca6a0b21c410f') in 0.015769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0014.png
+  artifactKey: Guid(5208b9371b76542439b2ce08b7412f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0014.png using Guid(5208b9371b76542439b2ce08b7412f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a92bff70c0e50910653a8442f815dc') in 0.015458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0017.png
+  artifactKey: Guid(2791a70b3bc602242b0ece793cef3969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0017.png using Guid(2791a70b3bc602242b0ece793cef3969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d713c89f55cdbcadb2d88f8fd57344') in 0.014870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Art Work/gun with walk
+  artifactKey: Guid(0d1943b2dc5ae7f4fb8c027ece61a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk using Guid(0d1943b2dc5ae7f4fb8c027ece61a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d2d7931600147f1ca972bfd248e9bd') in 0.004306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0015.png
+  artifactKey: Guid(8b96176818094ca428edcae0af1be6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0015.png using Guid(8b96176818094ca428edcae0af1be6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd338bd7928af2a1c70ff795e529325b5') in 0.014035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0003.png
+  artifactKey: Guid(f8c8d4d0c4461ce4cad91ebc688c860e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0003.png using Guid(f8c8d4d0c4461ce4cad91ebc688c860e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9146e3833c4bf31a2d2d9b098676c0f3') in 0.014801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0020.png
+  artifactKey: Guid(10c947bec9cdc334091485bd7905dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0020.png using Guid(10c947bec9cdc334091485bd7905dbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e6653297fdbeef325812c653dcaec6') in 0.014583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0012.png
+  artifactKey: Guid(7ed0c12418b0f0a46b3d5a5e579dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0012.png using Guid(7ed0c12418b0f0a46b3d5a5e579dd67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0b10b100b5fb0d01d92f05c641e9ea') in 0.015463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0000.png
+  artifactKey: Guid(c497ce129438ec142aff13abb39d00f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0000.png using Guid(c497ce129438ec142aff13abb39d00f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0461cf644be12c808606ed44ecf8c0') in 0.012913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0009.png
+  artifactKey: Guid(20013a72cfea84a4a8acf242084b5740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0009.png using Guid(20013a72cfea84a4a8acf242084b5740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d453cba65cec3e562fdda0308344cf4') in 0.013357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0010.png
+  artifactKey: Guid(184b0813620cbd0499feb88dbfb4c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0010.png using Guid(184b0813620cbd0499feb88dbfb4c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f997895f1c40d1977d1a06c96712b22f') in 0.012934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0016.png
+  artifactKey: Guid(1cb43394f7a318d4d93f3b26529505cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0016.png using Guid(1cb43394f7a318d4d93f3b26529505cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc1ecdfecaa87cdae345b049c24c8c1') in 0.013803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0011.png
+  artifactKey: Guid(1a356f9dd9ea134409273eee88dce156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0011.png using Guid(1a356f9dd9ea134409273eee88dce156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba385bb982fa594779d98aac16226ac2') in 0.012114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2153 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.8 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2945.
+Total: 2.952300 ms (FindLiveObjects: 0.250700 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.570400 ms  DeleteObjects: 0.018000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.820625 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c36635f97bbc03cf1282e3a04d3cd79') in 0.018046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.119245 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs walking0000.controller
+  artifactKey: Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs walking0000.controller using Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980962d7ae0582ba3fa464965613274f') in 0.009854 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001749 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.0 MB.
+System memory in use after: 172.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2948.
+Total: 2.058200 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.087900 ms MarkObjects: 1.752800 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.584651 seconds.
+  path: Assets/Art Work/gun with walk/gun with legs contoler.controller
+  artifactKey: Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/gun with legs contoler.controller using Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617f41e0e410d25ac3939235c84a627c') in 0.014792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.415489 seconds.
+  path: Assets/Art Work/gun with walk/GunWithWalk.anim
+  artifactKey: Guid(62f0a8c7ee5ec9c4f87ec150cfeac815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/GunWithWalk.anim using Guid(62f0a8c7ee5ec9c4f87ec150cfeac815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3d650ae1a697df0a0fb9209429993e') in 0.006825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.910443 seconds.
+  path: Assets/prefabs/gun with Legs.prefab
+  artifactKey: Guid(05e359c1a6619d146852b15bb5e97ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/gun with Legs.prefab using Guid(05e359c1a6619d146852b15bb5e97ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f16721b9d6bf12a120ec361d7934cb8') in 0.052064 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.1 MB.
+System memory in use after: 172.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2956.
+Total: 3.438000 ms (FindLiveObjects: 0.496300 ms CreateObjectMapping: 0.172500 ms MarkObjects: 2.743400 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.1 MB.
+System memory in use after: 172.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2959.
+Total: 2.920100 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.156000 ms MarkObjects: 2.393600 ms  DeleteObjects: 0.023800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.771901 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f97e66c0e61b40c7ecbe944f28fc7a') in 0.015113 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.1 MB.
+System memory in use after: 172.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2962.
+Total: 2.875300 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.435600 ms  DeleteObjects: 0.021500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.1 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2965.
+Total: 2.686700 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.142600 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.2 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2968.
+Total: 2.904600 ms (FindLiveObjects: 0.372200 ms CreateObjectMapping: 0.195700 ms MarkObjects: 2.317700 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.2 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2971.
+Total: 2.634300 ms (FindLiveObjects: 0.258700 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.225100 ms  DeleteObjects: 0.014800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001682 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.2 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2974.
+Total: 2.570600 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.168100 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 320.006327 seconds.
+  path: Assets/prefabs/gun with Legs.prefab
+  artifactKey: Guid(05e359c1a6619d146852b15bb5e97ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/gun with Legs.prefab using Guid(05e359c1a6619d146852b15bb5e97ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b579b9d7a8ad13bf20ee044513ff30') in 0.052963 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.2 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 2.784100 ms (FindLiveObjects: 0.245900 ms CreateObjectMapping: 0.122400 ms MarkObjects: 2.398600 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.2 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 2.549100 ms (FindLiveObjects: 0.242800 ms CreateObjectMapping: 0.135100 ms MarkObjects: 2.154900 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2984.
+Total: 2.935600 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.146600 ms MarkObjects: 2.480500 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 2.682400 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.125300 ms MarkObjects: 2.283000 ms  DeleteObjects: 0.019200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 2.577900 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.218700 ms  DeleteObjects: 0.014800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2993.
+Total: 4.116300 ms (FindLiveObjects: 0.377800 ms CreateObjectMapping: 0.162900 ms MarkObjects: 3.553800 ms  DeleteObjects: 0.020600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.3 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 2.522800 ms (FindLiveObjects: 0.250200 ms CreateObjectMapping: 0.131600 ms MarkObjects: 2.124700 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.592539 seconds.
+  path: Assets/Art Work/gun with walk/GunWithWalk.anim
+  artifactKey: Guid(62f0a8c7ee5ec9c4f87ec150cfeac815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with walk/GunWithWalk.anim using Guid(62f0a8c7ee5ec9c4f87ec150cfeac815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1217ab881127ce8a7bd4a5bf67797421') in 0.012645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.327842 seconds.
+  path: Assets/Art Work/gun with leg animations
+  artifactKey: Guid(0d1943b2dc5ae7f4fb8c027ece61a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with leg animations using Guid(0d1943b2dc5ae7f4fb8c027ece61a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e83654408c96d5c7798f0b53696eaf') in 0.004614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.711783 seconds.
+  path: Assets/Art Work/gun with leg animations/gun with walk
+  artifactKey: Guid(040e21c637f2759438c20ebf2cba593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Work/gun with leg animations/gun with walk using Guid(040e21c637f2759438c20ebf2cba593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5726a3e12161c9d78152ac36b71191ec') in 0.004034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.076476 seconds.
+  path: Assets/animations
+  artifactKey: Guid(d2743fee0a61ed54b9721d9a0b65672f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations using Guid(d2743fee0a61ed54b9721d9a0b65672f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d19782f4cb9d5f2199545dcf56ea57') in 0.005293 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2999.
+Total: 2.568300 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.116400 ms MarkObjects: 2.196200 ms  DeleteObjects: 0.014800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.670206 seconds.
+  path: Assets/animations/gun with leg animations/gun with legs contoler.controller
+  artifactKey: Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with legs contoler.controller using Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db376248774b1f510d916c1a0cebdcbf') in 0.016643 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.4 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3002.
+Total: 3.074300 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.129500 ms MarkObjects: 2.655800 ms  DeleteObjects: 0.021800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 701.360899 seconds.
+  path: Assets/animations/gun with leg animations/gun with walk/png sequence
+  artifactKey: Guid(522e2d2013ac70d41920b9c8a181f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with walk/png sequence using Guid(522e2d2013ac70d41920b9c8a181f8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e773e27d8cc89662bce2199bcccd0687') in 0.012729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.341824 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot
+  artifactKey: Guid(7b3434b16554c58429538f787cbef47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot using Guid(7b3434b16554c58429538f787cbef47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0761f6b37cf1f872d96de0d66b1e93d') in 0.006058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049083 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0000.png
+  artifactKey: Guid(7bb86ede00ed5814ab0d6b416e67d4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0000.png using Guid(7bb86ede00ed5814ab0d6b416e67d4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a9e21472fa94731bda991dc38192dd') in 0.060094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0001.png
+  artifactKey: Guid(c12c34fc67ac6d6438f96f58a0bbd139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0001.png using Guid(c12c34fc67ac6d6438f96f58a0bbd139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bd637d2821da1c42fc3dd4045a3363') in 0.021081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0003.png
+  artifactKey: Guid(ba2c8ebacc920bd4eb77b65db37cefbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0003.png using Guid(ba2c8ebacc920bd4eb77b65db37cefbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16b92e5e85a53d691a38e86f0027954') in 0.019647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0012.png
+  artifactKey: Guid(1b91366b295ba5442a551146510907e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0012.png using Guid(1b91366b295ba5442a551146510907e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e8050c02167d35c2175e3ec11bca44') in 0.022082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0006.png
+  artifactKey: Guid(2ab2fd36cd17b0246917e5f0d7e67110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0006.png using Guid(2ab2fd36cd17b0246917e5f0d7e67110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a1fdbbc8a5efb9acc8c8859a0f31d4') in 0.018607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0002.png
+  artifactKey: Guid(d0f94c1e0266597498a82c9ffa1f28f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0002.png using Guid(d0f94c1e0266597498a82c9ffa1f28f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7190f159628dc4e562fabbac7df28') in 0.023101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0018.png
+  artifactKey: Guid(d2a05e03a6682ae4797920df5a97eea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0018.png using Guid(d2a05e03a6682ae4797920df5a97eea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47462dea684036ccc66a0aa1fea3eeaf') in 0.026973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0007.png
+  artifactKey: Guid(a5ed877bb5e1b5b45af31c4bb6340d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0007.png using Guid(a5ed877bb5e1b5b45af31c4bb6340d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd427d523fb0472811f4e6580ba2c5d2e') in 0.020998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0005.png
+  artifactKey: Guid(a68364c5089c5db4dad147bdfc13f537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0005.png using Guid(a68364c5089c5db4dad147bdfc13f537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf1390fa33798151d136a4be0a2a7eb') in 0.024572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0008.png
+  artifactKey: Guid(6dd52cfba649cfd4597cc3bae295253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0008.png using Guid(6dd52cfba649cfd4597cc3bae295253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59c15b6be267dd36bfb41daa8670759') in 0.022216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0013.png
+  artifactKey: Guid(6fccac215f527cb49955c82ae2986885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0013.png using Guid(6fccac215f527cb49955c82ae2986885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f08e9d2c65a2ef75722220fa315cdc') in 0.022314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0010.png
+  artifactKey: Guid(044edf74bf0988f498f0eefbda561b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0010.png using Guid(044edf74bf0988f498f0eefbda561b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e928f85cedb7eb728bca63bcd733609') in 0.019774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0011.png
+  artifactKey: Guid(1fe0ead4592aced4a84fdacbf9cceaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0011.png using Guid(1fe0ead4592aced4a84fdacbf9cceaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0d5d607b0c9289bfca7e1a91b726c8') in 0.023266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0019.png
+  artifactKey: Guid(4205b932c44989e40a1b99a39654a5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0019.png using Guid(4205b932c44989e40a1b99a39654a5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681e4482721f6f473321ae08fae4dbfd') in 0.021665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0015.png
+  artifactKey: Guid(d429e50c7982f3e4dba03dd0b7f5ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0015.png using Guid(d429e50c7982f3e4dba03dd0b7f5ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21085c658e268dcdd83dcde329e6a231') in 0.021446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0016.png
+  artifactKey: Guid(4d12da263809da94d87eba95edc055dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0016.png using Guid(4d12da263809da94d87eba95edc055dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fac65cf735f3631f9f564f29c45fa44') in 0.025890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0017.png
+  artifactKey: Guid(f6fb586bdf9af134794afb419c1bca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0017.png using Guid(f6fb586bdf9af134794afb419c1bca09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fd770c78c8121d10e01e2e5e253b90') in 0.021936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0009.png
+  artifactKey: Guid(e99a0ae775f3a7a479e3b8a526459dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0009.png using Guid(e99a0ae775f3a7a479e3b8a526459dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d42b6f845d7248269fd69fe15980714') in 0.025536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0004.png
+  artifactKey: Guid(05a0d9ddd39c28a47a01fbf8a5e1b836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0004.png using Guid(05a0d9ddd39c28a47a01fbf8a5e1b836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c13bc2a444bab004dce770d59b3a00') in 0.024274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0014.png
+  artifactKey: Guid(cc8156c13f1966b45a17b9c1f7d9f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0014.png using Guid(cc8156c13f1966b45a17b9c1f7d9f9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51498454758963a8dc4406809fa37101') in 0.021478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.327934 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence
+  artifactKey: Guid(bf79a2be1a152df46be509b40042404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence using Guid(bf79a2be1a152df46be509b40042404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480e23649c47ee0d551f482ba5bb04c1') in 0.005730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.246654 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0000.controller
+  artifactKey: Guid(4b8a068953e994f46841ddb756ecf26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun wth shoot0000.controller using Guid(4b8a068953e994f46841ddb756ecf26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d33dd4e1a3f98cae72eb5186ead1062') in 0.010959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.269166 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/gun with shoot.anim
+  artifactKey: Guid(f83e3eee26f2ce54cb4a7645246132b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/gun with shoot.anim using Guid(f83e3eee26f2ce54cb4a7645246132b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee683dcd6fc6eb523bf0abc19252d8dd') in 0.003973 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 238.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3308.
+Total: 3.981600 ms (FindLiveObjects: 0.405100 ms CreateObjectMapping: 0.162100 ms MarkObjects: 3.378100 ms  DeleteObjects: 0.032500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.818803 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth shoot0000 (1).controller
+  artifactKey: Guid(2c02da6014bdf8a4f86f5c3fe813d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth shoot0000 (1).controller using Guid(2c02da6014bdf8a4f86f5c3fe813d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af48663f5323a428e90e288cbb6d24e6') in 0.017994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.314562 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/fvsdkj;ajlmn.anim
+  artifactKey: Guid(2ee82f0584d72b944b6d676e8b0adb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/fvsdkj;ajlmn.anim using Guid(2ee82f0584d72b944b6d676e8b0adb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cc70c5ca1ff208ab9b07f8874234e7') in 0.005763 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.9 MB.
+System memory in use after: 238.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3311.
+Total: 3.449500 ms (FindLiveObjects: 0.477500 ms CreateObjectMapping: 0.151100 ms MarkObjects: 2.799800 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.738793 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth shoot0000.controller
+  artifactKey: Guid(6f9b32b36dfa5ec4f880ba4d7ceeaab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth shoot0000.controller using Guid(6f9b32b36dfa5ec4f880ba4d7ceeaab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0276f3f146cfc2e4f776cc80d022cb') in 0.017351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.070054 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun with shoot.anim
+  artifactKey: Guid(fcba62db7fffb2f4ba4b039f2dcddb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun with shoot.anim using Guid(fcba62db7fffb2f4ba4b039f2dcddb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa5f000d1456ba7bd335fa831150527') in 0.006571 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 237.9 MB.
+System memory in use after: 238.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 3.444500 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.165600 ms MarkObjects: 2.886800 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 837.467813 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0000.png
+  artifactKey: Guid(c2351e4c0e95ad24fbb5f5c90db10fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0000.png using Guid(c2351e4c0e95ad24fbb5f5c90db10fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acb95d212a82649fcdc8042eeb65dc7') in 0.065350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0001.png
+  artifactKey: Guid(6e2f23597f82970438cdd3c6d160e853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0001.png using Guid(6e2f23597f82970438cdd3c6d160e853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf135960cf14558eaaf651259d479cb') in 0.018812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0015.png
+  artifactKey: Guid(c088d762c4af22144946e7c30f2d2a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0015.png using Guid(c088d762c4af22144946e7c30f2d2a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bf967911e908f1ec106119f67da8c4') in 0.017210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0008.png
+  artifactKey: Guid(5b2170d21b1f07a419cbc53be45a2196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0008.png using Guid(5b2170d21b1f07a419cbc53be45a2196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9be9f6574f07b35d8aedde3e9819179') in 0.014510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0019.png
+  artifactKey: Guid(f4c4950683bc8a24bb69a05166897595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0019.png using Guid(f4c4950683bc8a24bb69a05166897595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6de5b433be5b3391c2f1eeaf185d4b') in 0.019609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0006.png
+  artifactKey: Guid(15431316fcb455047b0fbd69a23cd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0006.png using Guid(15431316fcb455047b0fbd69a23cd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba2dc14d0efd033505e6fcb12d2f5c7') in 0.016508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0007.png
+  artifactKey: Guid(3b6321b4d0ed50841a92083809b168c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0007.png using Guid(3b6321b4d0ed50841a92083809b168c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1c70bb502abcce0bcf8d95ec024e9f') in 0.015921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0016.png
+  artifactKey: Guid(72d3534f1c02e594ab048ef1df0c48b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0016.png using Guid(72d3534f1c02e594ab048ef1df0c48b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ed27309505d782ec8ddabc8de699a') in 0.013559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0010.png
+  artifactKey: Guid(36578127b20ed1d49861ece518dabea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0010.png using Guid(36578127b20ed1d49861ece518dabea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd429ec951a497a95da9de6d41ee195e') in 0.016532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0011.png
+  artifactKey: Guid(95c25a3ba9c52bd4e953107ca3a1a17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0011.png using Guid(95c25a3ba9c52bd4e953107ca3a1a17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ff86610f2f3f10d9a571bec78ecebf') in 0.012027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0004.png
+  artifactKey: Guid(189913aca711843469329b1d988f2e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0004.png using Guid(189913aca711843469329b1d988f2e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7b257930894f21eb645912e3b2271f') in 0.013094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0014.png
+  artifactKey: Guid(62b431e82fde2974c978d4f3c647e275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0014.png using Guid(62b431e82fde2974c978d4f3c647e275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecfa9756869f390bcd5c2b1117d232c') in 0.012720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0020.png
+  artifactKey: Guid(dbf29e0779dd1a04f8646d8fdd0fbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0020.png using Guid(dbf29e0779dd1a04f8646d8fdd0fbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33bd4c0d498ba5575ec40a868700b2f') in 0.013678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0021.png
+  artifactKey: Guid(5b34692aba8dbba4b86ca0dc556b7851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0021.png using Guid(5b34692aba8dbba4b86ca0dc556b7851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7305808c1ede0b7c7d935f456c54ae20') in 0.011885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0002.png
+  artifactKey: Guid(516e367b43d4390479fa764d85c8a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0002.png using Guid(516e367b43d4390479fa764d85c8a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e4afac599ec36eb1336e1af7a0ae55') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0005.png
+  artifactKey: Guid(c8f6d35a613e55f43a25c93423b1cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0005.png using Guid(c8f6d35a613e55f43a25c93423b1cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf7969cd64c8ac9fb3d2485b8a0d30a') in 0.011288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0003.png
+  artifactKey: Guid(39860cba04eee8d47872c6c8d4892c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0003.png using Guid(39860cba04eee8d47872c6c8d4892c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdd0f37f2daf72002fcd87daf877b34') in 0.014874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0009.png
+  artifactKey: Guid(5a5fd28f303e1a1499ce70c45a191c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0009.png using Guid(5a5fd28f303e1a1499ce70c45a191c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43ddb1c7e45108bb317a62b5e592391') in 0.015608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0013.png
+  artifactKey: Guid(2cbdb2510ec8951438d796d5d0151fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0013.png using Guid(2cbdb2510ec8951438d796d5d0151fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8929cc13e7c6026e39ac8b593ac568b6') in 0.016055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0018.png
+  artifactKey: Guid(5e76600d08efd5a469a47f6165d2f7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0018.png using Guid(5e76600d08efd5a469a47f6165d2f7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4ffd93ebd62bcec7ad81177cfed91') in 0.012505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0012.png
+  artifactKey: Guid(d7f5a5450dbd79149b010c12d0b74b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0012.png using Guid(d7f5a5450dbd79149b010c12d0b74b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bffe04549a359df2ad5697f321461c') in 0.010924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0017.png
+  artifactKey: Guid(9e7fb62accf7d4840bb6973634271ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/png sequence/gun wth leg0017.png using Guid(9e7fb62accf7d4840bb6973634271ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8674b78e8d1a4c29f2c729e62613270') in 0.011048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.522694 seconds.
+  path: Assets/animations/gun with leg animations/gun with shoot/Gun with shoot.anim
+  artifactKey: Guid(fcba62db7fffb2f4ba4b039f2dcddb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with shoot/Gun with shoot.anim using Guid(fcba62db7fffb2f4ba4b039f2dcddb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabc3bc92948ff293f80b5ba50e0236a') in 0.006227 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 311.0 MB.
+System memory in use after: 311.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3648.
+Total: 2.799500 ms (FindLiveObjects: 0.357800 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.270200 ms  DeleteObjects: 0.035400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001125 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.0 MB.
+System memory in use after: 310.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3651.
+Total: 2.882000 ms (FindLiveObjects: 0.274800 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.469300 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.3 MB.
+System memory in use after: 310.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3654.
+Total: 4.268500 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.152800 ms MarkObjects: 3.608800 ms  DeleteObjects: 0.038900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.880 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.5 MB.
+System memory in use after: 310.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3657.
+Total: 3.202500 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.228500 ms MarkObjects: 2.649200 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.3 MB.
+System memory in use after: 310.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 2.324500 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.104600 ms MarkObjects: 1.910200 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 735.647615 seconds.
+  path: Assets/Scenes/NeverUnload.unity
+  artifactKey: Guid(a9f4bdca2a1580c4380fa20dc7abb927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NeverUnload.unity using Guid(a9f4bdca2a1580c4380fa20dc7abb927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbcc25d870434549e6a9aaff9a3e9b0') in 0.014932 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.3 MB.
+System memory in use after: 310.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3663.
+Total: 2.264900 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.091600 ms MarkObjects: 1.931600 ms  DeleteObjects: 0.012200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.3 MB.
+System memory in use after: 310.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3666.
+Total: 2.455800 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.105900 ms MarkObjects: 2.070600 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.5 MB.
+System memory in use after: 310.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3669.
+Total: 2.335700 ms (FindLiveObjects: 0.359500 ms CreateObjectMapping: 0.113300 ms MarkObjects: 1.847400 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.108152 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1b071148eed014cb26a89b07649a8d') in 0.013357 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.3 MB.
+System memory in use after: 310.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3672.
+Total: 3.022800 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.199600 ms MarkObjects: 2.445400 ms  DeleteObjects: 0.015600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.4 MB.
+System memory in use after: 310.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3675.
+Total: 2.701400 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.187100 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.4 MB.
+System memory in use after: 310.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3678.
+Total: 2.617500 ms (FindLiveObjects: 0.442400 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.043300 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.670838 seconds.
+  path: Assets/animations/gun with leg animations/gun with legs contoler.controller
+  artifactKey: Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/gun with leg animations/gun with legs contoler.controller using Guid(b36efdd44949ed34083ef1a836c58222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f6ad4c2b9f9be449099d57a1305ce7') in 0.018570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.156674 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337e5007e1646371acca2f345a5150ce') in 0.003906 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.6 MB.
+System memory in use after: 310.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3681.
+Total: 2.865200 ms (FindLiveObjects: 0.519800 ms CreateObjectMapping: 0.224700 ms MarkObjects: 2.105900 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.4 MB.
+System memory in use after: 310.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3684.
+Total: 2.966300 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.109900 ms MarkObjects: 2.585400 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.4 MB.
+System memory in use after: 310.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3687.
+Total: 4.589400 ms (FindLiveObjects: 0.698600 ms CreateObjectMapping: 0.231800 ms MarkObjects: 3.631500 ms  DeleteObjects: 0.025500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.4 MB.
+System memory in use after: 310.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3690.
+Total: 2.555400 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.167300 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.6 MB.
+System memory in use after: 310.9 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3693.
+Total: 2.756800 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.128300 ms MarkObjects: 2.284000 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001316 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.8 MB.
+System memory in use after: 311.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3696.
+Total: 2.699900 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.123400 ms MarkObjects: 2.257100 ms  DeleteObjects: 0.015600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.9 MB.
+System memory in use after: 311.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3699.
+Total: 2.649100 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.273300 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2132 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 311.1 MB.
+System memory in use after: 311.3 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 3.229100 ms (FindLiveObjects: 0.556000 ms CreateObjectMapping: 0.245000 ms MarkObjects: 2.410900 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

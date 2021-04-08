@@ -16,6 +16,8 @@ public class backAndForthAI : MonoBehaviour
     RaycastHit2D down;
     [SerializeField]
     RaycastHit2D leftRigt;
+    [SerializeField]
+    private bool AnimationControledWalk;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,24 +32,21 @@ public class backAndForthAI : MonoBehaviour
     {
         down = Physics2D.Raycast(pathfinder.transform.position, -Vector2.up, brain.RaySize);
         leftRigt = Physics2D.Raycast(pathfinder.transform.position, (moveDire * frountOveride) * Vector2.right, brain.RaySize);
-        if (leftRigt.collider != null)
-        {
-            Debug.Log(leftRigt.collider.name);
-        }
-        if (down.collider != null)
-        {
-            Debug.Log(down.collider.name);
-        }
         if (down.collider != null && leftRigt.collider == null)
         {
-            transform.Translate(brain.Speed * Time.deltaTime, 0, 0);
+            if (AnimationControledWalk == false)
+            {
+                transform.Translate(brain.Speed * Time.deltaTime, 0, 0);
+            }
         }
         else
         {
                 if (leftRigt.collider != null)
                 {
-
-                    Flip();
+                    if(leftRigt.collider.CompareTag("Player"))
+                    {
+                        brain.attack();   
+                    }
                 }
                 else
                 {
@@ -56,6 +55,10 @@ public class backAndForthAI : MonoBehaviour
         }
         Debug.DrawRay(pathfinder.transform.position, -Vector2.up * brain.RaySize, color: Color.blue);
         Debug.DrawRay(pathfinder.transform.position, (moveDire * frountOveride) * Vector2.right * brain.RaySize, color: Color.blue);
+    }
+    public void Walk()
+    {
+        transform.Translate(brain.Speed * Time.deltaTime, 0, 0);
     }
     void Flip()
     {
