@@ -54,6 +54,7 @@ public class Movement : MonoBehaviour
         }
         rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
         rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
+        //transform.Translate(new Vector2(moveDire.x * MovementSpeed * Time.deltaTime,0));
         //velcocity = rb.velocity;
         if(groundedManiger.GetComponent<grounedManiger>().Grouned == true && jumpOveride == false)
         {

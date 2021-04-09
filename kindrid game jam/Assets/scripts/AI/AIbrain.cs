@@ -14,6 +14,8 @@ public class AIbrain : MonoBehaviour
     private Vector3 attackSize;
     [SerializeField]
     private int Dammage;
+    [SerializeField]
+    public bool alive; // this is to protect from an infint loop in spaw minyohs
     
     public float Speed
     {
@@ -48,5 +50,10 @@ public class AIbrain : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(attackPos.position, attackSize);
+    }
+    public void Die()
+    {
+
+        Destroy(gameObject);
     }
 }
