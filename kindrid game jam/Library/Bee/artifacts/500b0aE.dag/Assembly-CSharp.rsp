@@ -333,6 +333,7 @@
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/500b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/scripts/AI/AIbrain.cs"
+"Assets/scripts/AI/attackWithLeftRIghtray.cs"
 "Assets/scripts/AI/backAndForthAI.cs"
 "Assets/scripts/AI/coinyeetmvmnt.cs"
 "Assets/scripts/AI/HurtOnCollison.cs"

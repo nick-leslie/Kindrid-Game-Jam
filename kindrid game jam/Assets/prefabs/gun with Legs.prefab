@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4103275238742244170}
   - component: {fileID: 4902172542260685852}
   - component: {fileID: 2893052163042637887}
+  - component: {fileID: 487637373386577818}
   m_Layer: 0
   m_Name: gun with Legs
   m_TagString: Untagged
@@ -102,9 +103,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   raySize: 0
-  attackPos: {fileID: 0}
-  attackSize: {x: 0, y: 0}
+  attackPos: {fileID: 8471797844332614610}
+  attackSize: {x: 1.98, y: 1.55, z: 0}
   Dammage: 0
+  alive: 0
 --- !u!114 &4103275238742244170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,9 +119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7484c15869836e4e86223ebf9c69222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 0}
+  brain: {fileID: 2623046153420148757}
   moveDire: 1
   frountOveride: -1
+  AnimationControledWalk: 0
 --- !u!61 &4902172542260685852
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -165,6 +168,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &487637373386577818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389806971623679491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a587a4dbbd21d1445bbf3f89c43da5d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  locataion: {fileID: 8471797844332614610}
+  frountDire: -1
 --- !u!1 &9179033185769381197
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9179033185769381197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.6, y: 6.1, z: 0}
+  m_LocalPosition: {x: -13.1, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4487315198715105121}
