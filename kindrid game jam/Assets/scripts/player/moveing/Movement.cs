@@ -51,10 +51,10 @@ public class Movement : MonoBehaviour
         if (disableMove == true)
         {
             moveDire = Vector2.zero;
-            rb.velocity = Vector2.zero;
         }
         rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
         rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
+        //transform.Translate(new Vector2(moveDire.x * MovementSpeed * Time.deltaTime,0));
         //velcocity = rb.velocity;
         if(groundedManiger.GetComponent<grounedManiger>().Grouned == true && jumpOveride == false)
         {
@@ -75,23 +75,27 @@ public class Movement : MonoBehaviour
     }
     public void Jump(InputAction.CallbackContext context)
     {
-        if(context.phase == InputActionPhase.Started)
+        if (disableMove == false)
         {
-            if (canJump == true && groundedManiger.GetComponent<grounedManiger>().Grouned == true)
+            if (context.phase == InputActionPhase.Started)
             {
-                rb.velocity = Vector2.up * jumpVelocity;
-                canJump = false;
-                jumpOveride = true;
-                StartCoroutine("waitToJump");
+                if (canJump == true && groundedManiger.GetComponent<grounedManiger>().Grouned == true)
+                {
+                    rb.velocity = Vector2.up * jumpVelocity;
+                    canJump = false;
+                    jumpOveride = true;
+                    StartCoroutine("waitToJump");
+                }
+                jumpHeld = true;
             }
-            jumpHeld = true;
-        }
-        if (context.phase == InputActionPhase.Performed)
-        {
-            jumpHeld = true;
-        } else if(context.phase == InputActionPhase.Canceled)
-        {
-            jumpHeld = false;
+            if (context.phase == InputActionPhase.Performed)
+            {
+                jumpHeld = true;
+            }
+            else if (context.phase == InputActionPhase.Canceled)
+            {
+                jumpHeld = false;
+            }
         }
     }
     public void Move(InputAction.CallbackContext context)

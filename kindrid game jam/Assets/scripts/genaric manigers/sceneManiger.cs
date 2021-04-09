@@ -5,28 +5,33 @@ using UnityEngine.SceneManagement;
 public class sceneManiger : MonoBehaviour
 {
     public const int NEVER_UNLOAD = 0;
+    [SerializeField]
     private GameObject player;
+    [SerializeField]
     private GameObject MainCammra;
-    public bool gamer = false;
+    [SerializeField]
+    private bool NextLevle = true;
+    private audioManiger aManiger;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         MainCammra = GameObject.FindGameObjectWithTag("MainCamera");
+        aManiger = GameObject.FindGameObjectWithTag("audioManiger").GetComponent<audioManiger>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(gamer == true)
+        if(NextLevle == true)
         {
-            LoadNextLevle();
-            gamer = false;
+            swapScene(SceneManager.GetActiveScene().buildIndex + 1, false);
+            NextLevle = false;
         }
     }
     public void LoadNextLevle()
     {
-        swapScene(SceneManager.GetActiveScene().buildIndex + 1, true);
+       swapScene(SceneManager.GetActiveScene().buildIndex + 1, true);
     }
     private void swapScene(int loadSceneNumber, bool unload)
     {
@@ -35,13 +40,9 @@ public class sceneManiger : MonoBehaviour
         for (int i = 0; i < SceneManager.sceneCount; i++)
         {
             ActiveScenes[i] = SceneManager.GetSceneAt(i);
-            Debug.Log(ActiveScenes[i].name);
         }
         if (unload == true)
         {
-            //moves player into the never unload scene so that the player dose not get yoot
-            SceneManager.MoveGameObjectToScene(player, SceneManager.GetSceneByBuildIndex(0));
-            SceneManager.MoveGameObjectToScene(MainCammra, SceneManager.GetSceneByBuildIndex(0));
             for (int i = 0; i < SceneManager.sceneCount; i++)
             {
                 if (ActiveScenes[i].buildIndex != 0)
@@ -51,9 +52,6 @@ public class sceneManiger : MonoBehaviour
             }
         }
         SceneManager.LoadSceneAsync(loadSceneNumber, LoadSceneMode.Additive);
-        MainCammra.GetComponent<cameraControler>().hardRest();
-        SceneManager.MoveGameObjectToScene(player, SceneManager.GetSceneByBuildIndex(loadSceneNumber));
-        SceneManager.MoveGameObjectToScene(MainCammra, SceneManager.GetSceneByBuildIndex(loadSceneNumber));
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
     IEnumerator unLoadScene(int sence)
@@ -76,5 +74,11 @@ public class sceneManiger : MonoBehaviour
         SceneManager.SetActiveScene(scene);
         StartCoroutine(MovePlayer());
         SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+    public void ReloadLvl()
+    {
+        //MainCammra.GetComponent<>
+        swapScene(SceneManager.GetActiveScene().buildIndex, true);
+        aManiger.CurrentBackground -= 1;
     }
 }
