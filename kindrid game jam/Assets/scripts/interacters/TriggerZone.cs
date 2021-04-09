@@ -128,6 +128,7 @@ public class TriggerZone : MonoBehaviour
                 }
                 if(healPlayer)
                 {
+                    Debug.Log("gamer");
                     healthManiger.Heal(HealAmount);
                 }
                 if(changePos)
