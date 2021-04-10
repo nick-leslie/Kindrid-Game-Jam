@@ -17,6 +17,7 @@ TagManager:
   - enviorment
   - pickup
   - enemy
+  - boss
   layers:
   - Default
   - TransparentFX

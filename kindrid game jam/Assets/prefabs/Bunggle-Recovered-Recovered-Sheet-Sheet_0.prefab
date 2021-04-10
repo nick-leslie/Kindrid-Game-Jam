@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6248696388610536879}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.188, y: -0.019, z: 0}
+  m_LocalPosition: {x: 0.2796, y: 0.007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6248696389404363760}
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 6248696389404363761}
   m_Layer: 0
   m_Name: Bunggle-Recovered-Recovered-Sheet-Sheet_0
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,9 +179,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brain: {fileID: 0}
   moveDire: 1
-  frountOveride: 1
+  frountOveride: -1
   AnimationControledWalk: 0
-  stopDistence: 0.5
+  stopDistence: 1
 --- !u!114 &6248696389404363763
 MonoBehaviour:
   m_ObjectHideFlags: 0
