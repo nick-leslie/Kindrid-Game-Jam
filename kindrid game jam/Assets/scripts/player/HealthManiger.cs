@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Animations;
 public class HealthManiger : MonoBehaviour
 {
     //TODO ADD UI CODE
@@ -17,6 +18,12 @@ public class HealthManiger : MonoBehaviour
     private Transform startPos;
     [SerializeField]
     private Vector3 offset;
+    [SerializeField]
+    private Sprite[] spriteAnimations;
+    [SerializeField]
+    private float TimeBetweenSpriteChage;
+    [SerializeField]
+    private sceneManiger sManiger;
     public int Health
     {
         get 
@@ -51,7 +58,7 @@ public class HealthManiger : MonoBehaviour
     {
         if (health - dammage >= 0)
         {
-            hearts[health-1].SetActive(false);
+            StartCoroutine(HealthAniamtion(TimeBetweenSpriteChage, health-1, 1));
             health -= dammage;
         }
         if (health <= 0)
@@ -63,12 +70,11 @@ public class HealthManiger : MonoBehaviour
     {
         if (health + amount <= MaxHealth) {
             health += amount;
-            hearts[health].SetActive(true);
+            StartCoroutine(HealthAniamtion(TimeBetweenSpriteChage, health - 1, -1));
         }
         else
         {
             health = MaxHealth;
-            hearts[health].SetActive(true);
         }
     }
     public void death()
@@ -77,5 +83,38 @@ public class HealthManiger : MonoBehaviour
         //TODO add code to wait for death animation
         gameObject.transform.position = respawnPoint.position;
         health = MaxHealth;
+        StopAllCoroutines();
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            while (hearts[i].GetComponent<Image>().sprite != spriteAnimations[0])
+            {
+                hearts[i].GetComponent<Image>().sprite = spriteAnimations[0];
+            }
+        }
+        StartCoroutine(WaitToReload(0.2f));
+    }
+    IEnumerator WaitToReload(float timeDelay)
+    {
+        yield return new WaitForSecondsRealtime(timeDelay);
+        sManiger.ReloadLvl();
+    }
+
+    IEnumerator HealthAniamtion(float timeDelay,int index,int dire)
+    {
+        if(dire == 1) {
+            for (int i = 0; i < spriteAnimations.Length; i++)
+            {
+                yield return new WaitForSecondsRealtime(timeDelay);
+                hearts[index].GetComponent<Image>().sprite = spriteAnimations[i];
+            }
+        } 
+        else
+        {
+            for (int i = spriteAnimations.Length-1; i >= 0; i--)
+            {
+                yield return new WaitForSecondsRealtime(timeDelay);
+                hearts[index].GetComponent<Image>().sprite = spriteAnimations[i];
+            }
+        }
     }
 }

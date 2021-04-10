@@ -18,6 +18,8 @@ public class backAndForthAI : MonoBehaviour
     RaycastHit2D leftRigt;
     [SerializeField]
     private bool AnimationControledWalk;
+    [SerializeField]
+    private float stopDistence;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,21 +33,21 @@ public class backAndForthAI : MonoBehaviour
     void Update()
     {
         down = Physics2D.Raycast(pathfinder.transform.position, -Vector2.up, brain.RaySize);
-        leftRigt = Physics2D.Raycast(pathfinder.transform.position, (moveDire * frountOveride) * Vector2.right, brain.RaySize);
+        leftRigt = Physics2D.Raycast(pathfinder.transform.position, moveDire  * (Vector2.left* frountOveride), stopDistence);
         if (down.collider != null && leftRigt.collider == null)
         {
             if (AnimationControledWalk == false)
             {
-                transform.Translate(brain.Speed * Time.deltaTime, 0, 0);
+                transform.Translate((brain.Speed * frountOveride) * Time.deltaTime, 0, 0);
             }
         }
         else
         {
                 if (leftRigt.collider != null)
                 {
-                    if(leftRigt.collider.CompareTag("Player"))
+                    if(!leftRigt.collider.CompareTag("Player"))
                     {
-                        brain.attack();   
+                        Flip();
                     }
                 }
                 else
@@ -54,11 +56,7 @@ public class backAndForthAI : MonoBehaviour
                 }
         }
         Debug.DrawRay(pathfinder.transform.position, -Vector2.up * brain.RaySize, color: Color.blue);
-        Debug.DrawRay(pathfinder.transform.position, (moveDire * frountOveride) * Vector2.right * brain.RaySize, color: Color.blue);
-    }
-    public void Walk()
-    {
-        transform.Translate(brain.Speed * Time.deltaTime, 0, 0);
+        Debug.DrawRay(pathfinder.transform.position, moveDire * (Vector2.left * frountOveride) * stopDistence, color: Color.blue);
     }
     void Flip()
     {

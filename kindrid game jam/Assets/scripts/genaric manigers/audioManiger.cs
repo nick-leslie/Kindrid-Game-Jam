@@ -8,6 +8,19 @@ public class audioManiger : MonoBehaviour
     [SerializeField]
     private AudioClip[] BackgroundJams;
     private int currentBackground;
+    public int CurrentBackground {
+        get
+        {
+            return currentBackground;
+        }
+        set
+        {
+            if(value == currentBackground-1 || value == currentBackground + 1)
+            {
+                currentBackground = value;
+            }
+        }
+    }
     [Range(0, 1)]
     private float pitch;
     [SerializeField]
