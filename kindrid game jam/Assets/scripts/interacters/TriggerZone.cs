@@ -73,7 +73,12 @@ public class TriggerZone : MonoBehaviour
     private bool NextBackgroundJam;
     [SerializeField]
     private string JamName;
-
+    //-------------------------
+    [Header("AI stuff")]
+    [SerializeField]
+    private bool MakeTargetAlive;
+    [SerializeField]
+    private GameObject targetEnemy;
     [Header("sfx stuff")]
     [SerializeField]
     private bool triggerSFX;
@@ -93,6 +98,11 @@ public class TriggerZone : MonoBehaviour
         {
             if (used == false)
             {
+                if(MakeTargetAlive==true)
+                {
+                    Debug.Log("piss bot");
+                    targetEnemy.GetComponent<AIbrain>().alive = true;
+                }
                 if (disableAfterUse == true)
                 {
                     used = true;

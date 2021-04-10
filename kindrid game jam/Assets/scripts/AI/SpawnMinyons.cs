@@ -14,11 +14,23 @@ public class SpawnMinyons : MonoBehaviour
     private AIbrain brain;
     [SerializeField]
     private Transform[] spawnLocation;
+    private bool started = false;
     // Start is called before the first frame update
     void Start()
     {
         brain = gameObject.GetComponent<AIbrain>();
-        StartCoroutine("spawn");
+        
+    }
+    private void Update()
+    {
+        if (started == false)
+        {
+            if (brain.alive == true)
+            {
+                StartCoroutine("spawn");
+                started = true;
+            }
+        }
     }
     IEnumerator spawn()
     {

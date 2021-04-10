@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        disableMovement();
+        //disableMovement();
     }
 
     // Update is called once per frame
