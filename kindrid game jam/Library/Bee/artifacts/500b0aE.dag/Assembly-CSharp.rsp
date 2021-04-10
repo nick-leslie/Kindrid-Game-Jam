@@ -324,6 +324,7 @@
 "Assets/scripts/dm/InvantorySlot.cs"
 "Assets/scripts/enviroment/BouncePad.cs"
 "Assets/scripts/enviroment/movingPlatforms.cs"
+"Assets/scripts/genaric manigers/audio Manager.cs"
 "Assets/scripts/genaric manigers/cameraControler.cs"
 "Assets/scripts/genaric manigers/PauseManiger.cs"
 "Assets/scripts/genaric manigers/sceneManiger.cs"

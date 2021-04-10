@@ -8,14 +8,15 @@ public class audioManiger : MonoBehaviour
     [SerializeField]
     private AudioClip[] BackgroundJams;
     private int currentBackground;
-    public int CurrentBackground {
+    public int CurrentBackground
+    {
         get
         {
             return currentBackground;
         }
         set
         {
-            if(value == currentBackground-1 || value == currentBackground + 1)
+            if (value == currentBackground - 1 || value == currentBackground + 1)
             {
                 currentBackground = value;
             }
@@ -27,24 +28,25 @@ public class audioManiger : MonoBehaviour
     private AudioClip[] Interactions;
     [Range(0, 1)]
     public float backgroundVolume;
-    [Range(0,1)]
+    [Range(0, 1)]
     public float sfxVolume;
     private AudioSource[] source;
     // Start is called before the first frame update
     void Start()
     {
         source = new AudioSource[Interactions.Length + 1];
-        for(int i=0;i<source.Length;i++)
+        for (int i = 0; i < source.Length; i++)
         {
             source[i] = gameObject.AddComponent<AudioSource>();
-            if(i == 0)
+            if (i == 0)
             {
                 source[i].clip = BackgroundJams[0];
                 source[i].volume = backgroundVolume;
                 source[i].loop = true;
-            } else
+            }
+            else
             {
-                source[i].clip = Interactions[i-1];
+                source[i].clip = Interactions[i - 1];
                 source[i].volume = sfxVolume;
             }
         }
@@ -68,7 +70,7 @@ public class audioManiger : MonoBehaviour
     public void PlayBackgroundSong(string clipName)
     {
         AudioClip song = Array.Find(BackgroundJams, BackgroundJams => BackgroundJams.name == clipName);
-        if(song==null)
+        if (song == null)
         {
             return;
         }
@@ -88,7 +90,7 @@ public class audioManiger : MonoBehaviour
     public void PlaySfx(string clipName)
     {
         AudioSource s = Array.Find(source, source => source.clip.name == clipName);
-        if(s==null)
+        if (s == null)
         {
             return;
         }
@@ -100,7 +102,7 @@ public class audioManiger : MonoBehaviour
         {
             return;
         }
-        source[index+1].Play();
+        source[index + 1].Play();
     }
     public void SetVolume(GameObject self)
     {
@@ -109,8 +111,8 @@ public class audioManiger : MonoBehaviour
     }
     public void SetSfx(GameObject self)
     {
-        sfxVolume = self.GetComponent<Scrollbar>().value; 
-        for(int i=1;i<source.Length;i++)
+        sfxVolume = self.GetComponent<Scrollbar>().value;
+        for (int i = 1; i < source.Length; i++)
         {
             source[i].volume = sfxVolume;
         }
