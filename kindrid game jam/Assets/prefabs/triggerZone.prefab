@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 735195043062360495}
   - component: {fileID: 3200560261213911103}
   - component: {fileID: 4520407497782976898}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: triggerZone
   m_TagString: triggerZone
   m_Icon: {fileID: 0}
@@ -70,14 +70,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9147d9bff31de468ee129301ce0471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disableAfterUse: 0
+  DestoryAfterUse: 0
   ChangeLevle: 0
+  cammraControler: {fileID: 0}
   TrigerCinima: 0
+  ChangeFOV: 0
   CinimaTarget: {fileID: 0}
-  ChangeFov: 0
+  FOVMod: 0
+  FOVLerpTime: 0
+  moveLerpTime: 0
   timeHeld: 0
+  player: {fileID: 0}
+  KillPlayer: 0
   dammagePlayer: 0
   healPlayer: 0
   changePos: 0
+  DisableMove: 0
+  shouldAttack: 1
+  disableUI: 0
   DammageAmount: 0
   HealAmount: 0
   newPos: {fileID: 0}
+  aManiger: {fileID: 0}
+  ChangeBackgroundJam: 0
+  NextBackgroundJam: 0
+  JamName: 
+  triggerSFX: 0
+  SFXNames: []

@@ -83,12 +83,22 @@ public class HealthManiger : MonoBehaviour
         //TODO add code to wait for death animation
         gameObject.transform.position = respawnPoint.position;
         health = MaxHealth;
+        StopAllCoroutines();
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i].GetComponent<Image>().sprite = spriteAnimations[0];
+            while (hearts[i].GetComponent<Image>().sprite != spriteAnimations[0])
+            {
+                hearts[i].GetComponent<Image>().sprite = spriteAnimations[0];
+            }
         }
+        StartCoroutine(WaitToReload(0.2f));
+    }
+    IEnumerator WaitToReload(float timeDelay)
+    {
+        yield return new WaitForSecondsRealtime(timeDelay);
         sManiger.ReloadLvl();
     }
+
     IEnumerator HealthAniamtion(float timeDelay,int index,int dire)
     {
         if(dire == 1) {
@@ -97,7 +107,8 @@ public class HealthManiger : MonoBehaviour
                 yield return new WaitForSecondsRealtime(timeDelay);
                 hearts[index].GetComponent<Image>().sprite = spriteAnimations[i];
             }
-        }  else
+        } 
+        else
         {
             for (int i = spriteAnimations.Length-1; i >= 0; i--)
             {
