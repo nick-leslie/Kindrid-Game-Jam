@@ -159,7 +159,7 @@ public class TriggerZone : MonoBehaviour
                     Destroy(gameObject);
                 }
             }
-        } else if( collision.CompareTag("Enemy"))
+        } else if( collision.CompareTag("enemy"))
         {
             if(KillEnemy)
             {
