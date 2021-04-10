@@ -162,10 +162,12 @@ MonoBehaviour:
   healPlayer: 0
   changePos: 0
   DisableMove: 0
+  shouldAttack: 1
   disableUI: 0
   DammageAmount: 1
   HealAmount: 0
   newPos: {fileID: 0}
+  KillEnemy: 1
   aManiger: {fileID: 0}
   ChangeBackgroundJam: 0
   NextBackgroundJam: 0

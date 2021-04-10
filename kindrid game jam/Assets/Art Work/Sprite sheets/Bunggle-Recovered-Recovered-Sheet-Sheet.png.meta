@@ -1,7 +1,109 @@
 fileFormatVersion: 2
 guid: 27c63d3d4c1b5164aa62fe8c2636da46
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5495054661462226824
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_0
+  - first:
+      213: 5709836398863318111
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_1
+  - first:
+      213: 1350940636980475302
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_2
+  - first:
+      213: -8175537329946171854
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_3
+  - first:
+      213: 5863593881278675577
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_4
+  - first:
+      213: -4166421522291429477
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_5
+  - first:
+      213: 2555327703358590131
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_6
+  - first:
+      213: -1254808624862861884
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_7
+  - first:
+      213: -1043622569160547223
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_8
+  - first:
+      213: 2079227812550014730
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_9
+  - first:
+      213: -3206111292946885827
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_10
+  - first:
+      213: -3396465202809614882
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_11
+  - first:
+      213: -2134993778655019802
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_12
+  - first:
+      213: 306051427571506538
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_13
+  - first:
+      213: -9218816550215082939
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_14
+  - first:
+      213: -4502086600482256513
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_15
+  - first:
+      213: 6389240757906590774
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_16
+  - first:
+      213: -8682002170040207466
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_17
+  - first:
+      213: -3042171193277820676
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_18
+  - first:
+      213: -2155052531714112858
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_19
+  - first:
+      213: -4785132861346092720
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_20
+  - first:
+      213: 2796159276664716526
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_21
+  - first:
+      213: -1400404306369557793
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_22
+  - first:
+      213: 5308419438879419648
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_23
+  - first:
+      213: 4710124144986481758
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_24
+  - first:
+      213: -5510084375383877510
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_25
+  - first:
+      213: -6412130079189088635
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_26
+  - first:
+      213: -2733165773536313491
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_27
+  - first:
+      213: -5211604013153797890
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_28
+  - first:
+      213: 57077306470966570
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_29
+  - first:
+      213: 6572399288149654945
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_30
+  - first:
+      213: 8563919807579301702
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_31
+  - first:
+      213: -7136872385920872414
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_32
+  - first:
+      213: 8905979143551653417
+    second: Bunggle-Recovered-Recovered-Sheet-Sheet_33
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +134,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +143,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,7 +169,43 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -77,7 +215,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8877fcdb91b524c40800000000000000
+      internalID: 5495054661462226824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cf7d7e3f96d3f40800000000000000
+      internalID: 5709836398863318111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a57cdb0a518fb210800000000000000
+      internalID: 1350940636980475302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236ec904d18aa8e80800000000000000
+      internalID: -8175537329946171854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97af4c0819baf5150800000000000000
+      internalID: 5863593881278675577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fe64b33b5ed26c0800000000000000
+      internalID: -4166421522291429477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc476be109567320800000000000000
+      internalID: 2555327703358590131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5e3f53436069ee0800000000000000
+      internalID: -1254808624862861884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964ea9d7dce4481f0800000000000000
+      internalID: -1043622569160547223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07f726eda6eadc10800000000000000
+      internalID: 2079227812550014730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33588904ca9183d0800000000000000
+      internalID: -3206111292946885827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddce8ea4e45dd0d0800000000000000
+      internalID: -3396465202809614882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec3991587afe52e0800000000000000
+      internalID: -2134993778655019802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d966fd6205f3400800000000000000
+      internalID: 306051427571506538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c10f2e03f201080800000000000000
+      internalID: -9218816550215082939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79853607106581c0800000000000000
+      internalID: -4502086600482256513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c487f1e942ba850800000000000000
+      internalID: 6389240757906590774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697359b8605538780800000000000000
+      internalID: -8682002170040207466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0dfb6fa6908c5d0800000000000000
+      internalID: -3042171193277820676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2cfdee327b712e0800000000000000
+      internalID: -2155052531714112858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059ea6ce30bc79db0800000000000000
+      internalID: -4785132861346092720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec73052c04fdc620800000000000000
+      internalID: 2796159276664716526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda4ae8f3b3c09ce0800000000000000
+      internalID: -1400404306369557793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00daf2dba5b4ba940800000000000000
+      internalID: 5308419438879419648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e8ed54f8bd5140800000000000000
+      internalID: 4710124144986481758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7850da447f3883b0800000000000000
+      internalID: -5510084375383877510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58646587aa98307a0800000000000000
+      internalID: -6412130079189088635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fbc1cb538d11ad0800000000000000
+      internalID: -2733165773536313491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8b7f523c9aca7b0800000000000000
+      internalID: -5211604013153797890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2520f00287cac000800000000000000
+      internalID: 57077306470966570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adb03c945ad53b50800000000000000
+      internalID: 6572399288149654945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64722bff0b729d670800000000000000
+      internalID: 8563919807579301702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22054e5b06cb4fc90800000000000000
+      internalID: -7136872385920872414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bunggle-Recovered-Recovered-Sheet-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9261f6c58d4689b70800000000000000
+      internalID: 8905979143551653417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

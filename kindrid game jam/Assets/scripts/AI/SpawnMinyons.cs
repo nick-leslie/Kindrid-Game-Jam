@@ -22,7 +22,7 @@ public class SpawnMinyons : MonoBehaviour
     }
     IEnumerator spawn()
     {
-        while(brain.alive)
+        while(brain.alive == true)
         {
             for (int i=0; i < AmountPerCycle;i++) 
             {
