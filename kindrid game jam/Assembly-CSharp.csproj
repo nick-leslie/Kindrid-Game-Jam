@@ -70,13 +70,13 @@
     <Compile Include="Assets\scripts\dm\InvantorySlot.cs" />
     <Compile Include="Assets\scripts\AI\AIbrain.cs" />
     <Compile Include="Assets\scripts\genaric manigers\sceneManiger.cs" />
+    <Compile Include="Assets\scripts\enviroment\BouncePad.cs" />
     <Compile Include="Assets\scripts\AI\rolling.cs" />
     <Compile Include="Assets\scripts\player\HealthManiger.cs" />
     <Compile Include="Assets\scripts\AI\coinyeetmvmnt.cs" />
     <Compile Include="Assets\scripts\AI\turret.cs" />
     <Compile Include="Assets\scripts\enviroment\movingPlatforms.cs" />
     <Compile Include="Assets\scripts\AI\HurtOnCollison.cs" />
-    <Compile Include="Assets\scripts\enviroment\BouncePad.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
