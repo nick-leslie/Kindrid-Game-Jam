@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class audioManiger : MonoBehaviour
 {
     [SerializeField]
@@ -51,6 +51,9 @@ public class audioManiger : MonoBehaviour
         StartBackground();
         //StartCoroutine(testSoundMethods());
     }
+    private void Update()
+    {
+    }
     public void StartBackground()
     {
         //Debug.Log(BackgroundJams[0].name);
@@ -98,6 +101,19 @@ public class audioManiger : MonoBehaviour
             return;
         }
         source[index+1].Play();
+    }
+    public void SetVolume(GameObject self)
+    {
+        backgroundVolume = self.GetComponent<Scrollbar>().value;
+        source[0].volume = backgroundVolume;
+    }
+    public void SetSfx(GameObject self)
+    {
+        sfxVolume = self.GetComponent<Scrollbar>().value; 
+        for(int i=1;i<source.Length;i++)
+        {
+            source[i].volume = sfxVolume;
+        }
     }
     IEnumerator testSoundMethods()
     {
