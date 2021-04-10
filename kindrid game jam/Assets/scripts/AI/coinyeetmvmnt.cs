@@ -23,7 +23,6 @@ public class coinyeetmvmnt : MonoBehaviour
     void OnTriggerStay2D(Collider2D frank)
     {
         Destroy(gameObject);
-        Debug.Log("hello");
     }
 }
 

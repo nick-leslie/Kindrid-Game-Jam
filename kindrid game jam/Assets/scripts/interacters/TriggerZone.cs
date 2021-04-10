@@ -60,6 +60,9 @@ public class TriggerZone : MonoBehaviour
     private int HealAmount;
     [SerializeField]
     private Transform newPos;
+    //-----------------------------------
+    [SerializeField]
+    private bool KillEnemy;
     //------------------------sound stuff
     [SerializeField]
     [Header("BackgroundSound stuff")]
@@ -155,6 +158,12 @@ public class TriggerZone : MonoBehaviour
                 {
                     Destroy(gameObject);
                 }
+            }
+        } else if( collision.CompareTag("Enemy"))
+        {
+            if(KillEnemy)
+            {
+                collision.gameObject.GetComponent<AIbrain>().Die();
             }
         }
     }
