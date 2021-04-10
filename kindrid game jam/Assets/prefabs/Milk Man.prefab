@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4415412265394131279}
   - component: {fileID: 4415412265394131276}
   - component: {fileID: 630503558925505113}
+  - component: {fileID: 3319670483585559761}
   m_Layer: 0
   m_Name: Milk Man
   m_TagString: Player
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c14ad4392ed87c14f915df4b11c85357, type: 3}
+  m_Sprite: {fileID: 8430734248691036588, guid: 470426bf7de3fe04c86418afe1528881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -210,6 +211,7 @@ MonoBehaviour:
   JumpWaitTime: 0.5
   fallMultiplyer: 2.5
   lowJumpMultiplier: 1
+  disableMove: 0
   groundedManiger: {fileID: 4415412266438371772}
   deadStop: 0
   lerpSpeed: 0.1
@@ -247,18 +249,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.021822691, y: -0.061103582}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.72939825, y: 1.0000005}
   m_EdgeRadius: 0
 --- !u!114 &630503558925505113
 MonoBehaviour:
@@ -273,6 +275,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 3
+  health: 0
+  HealthPrefb: {fileID: 0}
+  startPos: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  spriteAnimations: []
+  TimeBetweenSpriteChage: 0
+  sManiger: {fileID: 0}
+--- !u!95 &3319670483585559761
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415412265394131273}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 702d89dca89a5b44a81e84f4f7376701, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4415412266438371772
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4415412266438371772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.096, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4415412265394131277}
@@ -318,7 +346,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.42221546}
+  m_Offset: {x: -0.017458081, y: -0.43094444}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -329,7 +357,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.15556908}
+  m_Size: {x: 0.7555864, y: 0.17302704}
   m_EdgeRadius: 0
 --- !u!114 &4415412266438371774
 MonoBehaviour:

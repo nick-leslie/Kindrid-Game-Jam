@@ -102,10 +102,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  raySize: 0
+  raySize: 3
   attackPos: {fileID: 8471797844332614610}
-  attackSize: {x: 1.98, y: 1.55, z: 0}
-  Dammage: 0
+  attackSize: {x: 2, y: 1.55, z: 0}
+  Dammage: 1
   alive: 0
 --- !u!114 &4103275238742244170
 MonoBehaviour:
@@ -123,6 +123,7 @@ MonoBehaviour:
   moveDire: 1
   frountOveride: -1
   AnimationControledWalk: 0
+  stopDistence: 0.5
 --- !u!61 &4902172542260685852
 BoxCollider2D:
   m_ObjectHideFlags: 0

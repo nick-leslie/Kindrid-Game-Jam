@@ -16,10 +16,6 @@ public class grounedManiger : MonoBehaviour
     private float coyoteTime;
     [SerializeField]
     private float landingTime;
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        StartCoroutine(startCoyoteTime(landingTime));
-    }
     public void OnTriggerStay2D(Collider2D collision)
     {
         if(grouned != true)
@@ -34,6 +30,6 @@ public class grounedManiger : MonoBehaviour
     IEnumerator startCoyoteTime(float timeing)
     {
         yield return new WaitForSecondsRealtime(timeing);
-        grouned = !grouned;
+        grouned = false;
     }
 }

@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
 public class Movement : MonoBehaviour
 {   
     //--------------------- values
@@ -52,6 +51,13 @@ public class Movement : MonoBehaviour
         {
             moveDire = Vector2.zero;
         }
+        if(moveDire.x != 0)
+        {
+            gameObject.GetComponent<Animator>().SetBool("Walking", true);
+        } else
+        {
+            gameObject.GetComponent<Animator>().SetBool("Walking", false);
+        }
         rb.velocity += moveDire * MovementSpeed * Time.deltaTime;
         rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(moveDire.x * MovementSpeed, rb.velocity.y), lerpSpeed);
         //transform.Translate(new Vector2(moveDire.x * MovementSpeed * Time.deltaTime,0));
@@ -59,6 +65,10 @@ public class Movement : MonoBehaviour
         if(groundedManiger.GetComponent<grounedManiger>().Grouned == true && jumpOveride == false)
         {
             canJump = true;
+        }
+        if(canJump == true)
+        {
+            gameObject.GetComponent<Animator>().SetBool("Jumping", false);
         }
         if (rb.velocity.y < 0 )
         {
@@ -69,9 +79,13 @@ public class Movement : MonoBehaviour
             //Debug.Log("low fall " + jumpHeld);
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
-        //Debug.Log(jumpHeld);
-
-        //canJump = groundedManiger.GetComponent<grounedManiger>().Grouned;
+        if (moveDire.x == 1)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+        } else if(moveDire.x == -1)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+        }
     }
     public void Jump(InputAction.CallbackContext context)
     {
@@ -79,6 +93,7 @@ public class Movement : MonoBehaviour
         {
             if (context.phase == InputActionPhase.Started)
             {
+                gameObject.GetComponent<Animator>().SetBool("Jumping", true);
                 if (canJump == true && groundedManiger.GetComponent<grounedManiger>().Grouned == true)
                 {
                     rb.velocity = Vector2.up * jumpVelocity;
@@ -116,7 +131,7 @@ public class Movement : MonoBehaviour
     }
     public void disableMovement()
     {
-        Debug.Log("dissabled movment called");
+        //Debug.Log("dissabled movment called");
         disableMove = true;
     }
     public void EnableMovement()
